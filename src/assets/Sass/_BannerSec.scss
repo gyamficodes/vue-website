@@ -1,7 +1,117 @@
-.banner-page{
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+$text: #fff;
+@mixin img-tex {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+//   background-attachment: fixed;
+}
+.banner-page {
+  height: 100vh ;
+  @include img-tex();
+  overflow: hidden;
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    // padding-top: 140px;
+    .content-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      .content-text {
+        h1 {
+          font-size: 60px;
+          font-weight: 700;
+          color: $text;
+        }
+        p {
+          font-size: 17px;
+          color: #e8e8e8;
+          font-weight: 600;
+          margin-top: 30px;
+          line-height: 1.6;
+        }
+        .box {
+          display: flex;
+          align-items: center;
+          gap: 2em;
+          margin-top: 50px;
+          .nav-btn {
+            width: 200px;
+            height: 50px;
+            background: #0c5adb;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+
+            z-index: 1;
+            &::after {
+              content: "";
+              //   top: 0;
+              left: 0;
+              bottom: 0;
+              background: #1129b9;
+              //   transform: scale(0);
+              width: 0%;
+              height: 60%;
+              position: absolute;
+              z-index: -1;
+              transition: all 0.5s ease-in-out;
+              //   border-radius: 1.5rem 1.5rem;
+            }
+            &:hover::after {
+              width: 100%;
+              height: 100%;
+              transform: scale(1);
+            }
+            span {
+              text-transform: capitalize;
+              color: #fff;
+              font-weight: 700;
+              font-size: 17px;
+              i {
+                margin-left: 5px;
+              }
+            }
+          }
+          .btn{
+            width: 90px;
+            height: 90px;
+            background: #fff;
+            color: #1129b9;
+            border-radius: 50%;
+            font-size: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+      .content-image{
+        .anima{
+            position: static;
+            z-index: 99;
+            margin-right: -200px;
+            animation: route 15s linear infinite;
+            @keyframes route {
+                to{
+                    transform: rotate(1turn);
+                }
+            }
+        }
+        .pic{
+            position: absolute;
+           right: 10%;
+            
+        }
+      }
+    }
+  }
 }
