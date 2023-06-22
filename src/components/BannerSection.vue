@@ -8,9 +8,8 @@
                         <h1>We Provide The Best
                             <br> All Kind IT Solution
                         </h1>
-                        <p>Morem upsum dolor set amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt
-                            ut
-                            laboret dolore magna aliqua.
+                        <p>Morem upsum dolor set amet, consectetur adipisicing elit, sed do eiusmod  <br> incididunt
+                          laboret dolore magna aliqua.
                         </p>
                         <div class="box">
 

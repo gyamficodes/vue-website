@@ -79,8 +79,8 @@
                         <div class="sub-menu2">
                           <ul>
                             <li><a href="#">Designers</a></li>
-                            <li><a href="#">UI/UX</a></li>
-                            <li><a href="#">Bitcoin</a></li>
+                            <li><a href="#">WebDesign</a></li>
+                            <li><a href="#">Marketing</a></li>
                           </ul>
                         </div>
                       </li>
