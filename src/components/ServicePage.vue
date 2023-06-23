@@ -1,7 +1,5 @@
 <template>
-    <div>
-
-    </div>
+<section class="service-page-content"></section>
 </template>
 
 <script>

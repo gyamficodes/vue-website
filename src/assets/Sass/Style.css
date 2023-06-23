@@ -16,99 +16,74 @@
   align-items: center;
   gap: 3em;
 }
-.nav .nav-menu .nav-right .right-box .nav-links {
-  transition: all 0.4s ease-in-out;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul {
+.nav .nav-menu .nav-right .right-box ul {
   display: flex;
   align-items: center;
-  gap: 2em;
+  gap: 2.5em;
   transition: all 0.4s ease-in-out;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li {
+.nav .nav-menu .nav-right .right-box ul li {
   list-style: none;
-  transition: all 0.3s ease-in-out;
-  display: flex;
-  align-items: center;
-  gap: 0.2em;
+  position: relative;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li:hover i {
+.nav .nav-menu .nav-right .right-box ul li:hover i {
   transform: rotate(180deg);
-  cursor: pointer;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li i {
-  color: #fff;
-  transition: all 0.4s ease-in-out;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #fff;
-  font-weight: 600;
-  font-size: 17px;
-  transition: all 0.4s ease-in-out;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li:hover .sub-menu1 {
+.nav .nav-menu .nav-right .right-box ul li:hover .sub-menu {
   display: flex;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li:hover .sub-menu1 ul li:last-child {
+.nav .nav-menu .nav-right .right-box ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nav .nav-menu .nav-right .right-box ul li i {
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.nav .nav-menu .nav-right .right-box ul li .sub-menu {
+  display: none;
+}
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul {
+  position: absolute;
+  z-index: 10;
+  left: 0%;
+  padding: 10px;
+  width: 180px;
+  background: #fff;
+  box-shadow: 0px 5px 10px #ccc;
+  display: block;
+  margin-top: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul li {
+  border-bottom: 1px solid #ccc;
+  margin: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul li:last-child {
   border-bottom: none;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li:hover .sub-menu1 ul li a:hover {
-  color: blue;
-  transform: translateX(10px);
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul li:hover a {
+  margin-left: 10px;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 {
-  display: none;
-  background: #fff;
-  transition: all 0.4s ease-in-out;
-  padding: 10px;
-  position: absolute;
-  z-index: 999;
-  margin-top: 15%;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul {
-  display: block;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul li {
-  border: 0;
-  padding: 10px 20px;
-  font-size: 15px;
-  text-align: left;
-  color: #333 !important;
-  border-bottom: 1px solid #ccc;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul li:hover i {
-  color: blue;
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul li:hover i {
   transform: rotate(-90deg);
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul li a {
-  color: #000;
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul li a {
+  color: #1129b9;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
 }
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul li i {
-  color: #333;
+.nav .nav-menu .nav-right .right-box ul li .sub-menu ul li i {
+  color: #1129b9;
   float: right;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul .hover-me {
-  transition: all 0.3s ease-in-out;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul .hover-me:hover .sub-menu2 {
-  background: #fff;
-  transition: all 0.3s ease-in-out;
-  padding: 5px;
-  position: absolute;
-  z-index: 99;
-  width: 130px;
-  display: flex;
-  top: 25%;
-  margin-left: 110px;
-  box-shadow: 0px 10px 20px #ccc;
-}
-.nav .nav-menu .nav-right .right-box .nav-links ul li .sub-menu1 ul .hover-me .sub-menu2 {
-  display: none;
+  transition: all 0.4s ease-in-out;
 }
 .nav .nav-menu .nav-right .right-box .nav-btn {
   width: 170px;
@@ -403,6 +378,14 @@
   color: #1129b9;
   font-size: 20px;
   cursor: pointer;
+}
+
+.service-page-content {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #eff2f7;
+  position: relative;
 }
 
 * {
