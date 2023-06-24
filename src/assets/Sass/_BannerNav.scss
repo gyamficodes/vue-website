@@ -31,9 +31,9 @@ $bd: #ccc;
             &:hover i {
               transform: rotate(180deg);
             }
-        &:hover .sub-menu{
-          display: flex;
-        }
+            &:hover .sub-menu {
+              display: flex;
+            }
 
             a {
               text-decoration: none;
@@ -54,44 +54,56 @@ $bd: #ccc;
                 position: absolute;
                 z-index: 10;
                 left: 0%;
-                padding: 10px;
+                // padding: 10px;
                 width: 180px;
                 background: #fff;
                 box-shadow: 0px 5px 10px #ccc;
                 display: block;
-               margin-top: 10px;
-               transition: all 0.4s ease-in-out;
+                margin-top: 6px;
+                transition: all 0.4s ease-in-out;
 
-                li{
+                li {
                   border-bottom: 1px solid #ccc;
                   margin: 15px;
                   transition: all 0.4s ease-in-out;
+          
+                  &:last-child {
+                    border-bottom: none;
+                  }
+
+                  &:hover i {
+                    transform: rotate(-90deg);
+                  }
                   
-                 &:last-child{
-                  border-bottom: none;
-                 }
-                 &:hover a{
-                  margin-left: 10px;
-                 }
-                 &:hover i{
-                  transform: rotate(-90deg);
-                 }
-                  a{
+                   a {
                     color: #1129b9;
                     font-size: 20px;
                     font-weight: 500;
                     transition: all 0.4s ease-in-out;
-                 
                   }
-                i{
-                  color: #1129b9;
-                  float: right;
-                  transition: all 0.4s ease-in-out;
+                  i {
+                    color: #1129b9;
+                    float: right;
+                    transition: all 0.4s ease-in-out;
+                  }
+                  &:hover .sub-menu1 {
+                    display: flex;
+                  }
+                  .sub-menu1 {
+                    display: none;
+                    ul {
+                      position: absolute;
+                      margin-left: 130px;
+                      // margin-top: 10px;
 
+                      li {
+                        &:hover a {
+                          margin-left: 10px;
+                        }
+                      }
+                    }
+                  }
                 }
-                 
-                }
-                
               }
             }
           }
