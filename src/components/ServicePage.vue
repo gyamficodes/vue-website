@@ -29,26 +29,26 @@ export default {
       cards: [
         {
           id: 1,
-          number:"01",
-          title:'Marketing Strategy & Analysis',
-          message:'Whether bringing new amazing products and services to market discovering new ways to make mature',
-          details:'read more'
+          number: "01",
+          title: 'Marketing Strategy & Analysis',
+          message: 'Whether bringing new amazing products and services to market discovering new ways to make mature',
+          details: 'read more'
         },
         {
           id: 2,
-          number:"02",
-          title:'Web Design & Development',
-          message:'Whether bringing new amazing products and services to market discovering new ways to make mature',
-          details:'read more'
+          number: "02",
+          title: 'Web Design & Development',
+          message: 'Whether bringing new amazing products and services to market discovering new ways to make mature',
+          details: 'read more'
         },
         {
           id: 3,
-          number:"03",
-          title:'SEO & Digital Marketing',
-          message:'Whether bringing new amazing products and services to market discovering new ways to make mature',
-          details:'read more'
+          number: "03",
+          title: 'SEO & Digital Marketing',
+          message: 'Whether bringing new amazing products and services to market discovering new ways to make mature',
+          details: 'read more'
         },
-        
+
       ]
     }
   },
@@ -59,4 +59,6 @@ export default {
 }
 </script>
 
-<style lang="scss">@import'../assets/Sass/ServicePage';</style>
+<style lang="scss">
+@import'../assets/Sass/ServicePage';
+</style>
