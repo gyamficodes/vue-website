@@ -4,6 +4,7 @@
    <AboutPage/>
    <ServicePage/>
 <TapAreaPage/>
+<SubPageVue/>
 
   </div>
 </template>
@@ -14,6 +15,7 @@ import BannerSection from '@/components/BannerSection.vue';
 import AboutPage from '@/components/AboutPage.vue';
 import ServicePage from '@/components/ServicePage.vue';
 import TapAreaPage from '@/components/TapAreaPage.vue';
+import SubPageVue from '@/components/SubPage.vue';
 
 export default {
   name: 'HomeView',
@@ -22,6 +24,7 @@ export default {
     AboutPage,
    ServicePage,
    TapAreaPage,
+   SubPageVue,
   }
 }
 </script>
