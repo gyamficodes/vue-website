@@ -28,7 +28,16 @@
             <span><i class="fa-solid fa-arrow-right"></i> {{ pages[activePage].row }}</span>
             <span><i class="fa-solid fa-arrow-right"></i> {{ pages[activePage].row }}</span>
           </div>
-          <!-- icons -->
+          <div class="buttons">
+          <div class="btnA">
+          <span>get a quote</span>
+          <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="btnB">
+          <span>get a quote</span>
+          <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          </div>
         </div>
       </div>
     </div>
