@@ -74,7 +74,7 @@ export default {
 
         },
         {
-         card:{text:'Data Server Security',icon: 'atabasee',url:'page3.html'},
+         card:{text:'Data Server Security',icon: 'databasee',url:'page3.html'},
          pageT: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm   tempor  incididunt ut labore et dolore magna aliqua. Ut enim advis  minim veniam,  quis nostrud exercitat ullamco But I must explain to      you how all this  mistaken idea of denouncing",
          row: 'Globally revolutionize global sources through',
          image: tab4,
