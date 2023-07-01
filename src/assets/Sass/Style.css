@@ -697,6 +697,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .choosePage .choose-content .choose h3 {
   color: #fff;
@@ -742,14 +743,13 @@
   margin-top: 40px;
 }
 .choosePage .choose-content .choose .card-page .card {
-  height: 340px;
+  height: 320px;
   width: 290px;
   background: #00a3ff;
   position: relative;
   border-radius: 5px;
   transition: all 0.4s ease-in-out;
   text-align: center;
-  overflow: hidden;
   padding: 20px;
   color: #fff;
   cursor: pointer;
@@ -772,13 +772,14 @@
 }
 .choosePage .choose-content .choose .card-page .card span {
   font-size: 30px;
-  margin-top: 30px;
   transition: all 0.4s ease-in-out;
 }
 .choosePage .choose-content .choose .card-page .card h2 {
-  font-size: 25px;
+  font-size: 23px;
   color: #fff;
   margin-top: 15px;
+  display: flex;
+  align-items: center;
 }
 .choosePage .choose-content .choose .card-page .card p {
   margin-top: 20px;

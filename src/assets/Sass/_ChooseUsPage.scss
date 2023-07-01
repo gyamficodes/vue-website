@@ -11,6 +11,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
         .choose{
             h3{
                 color: #fff;
@@ -60,14 +61,14 @@
                 gap: 2em;
                 margin-top: 40px;
                 .card{
-                    height: 340px;
+                    height: 320px;
                     width: 290px;
                     background: #00a3ff;
                     position: relative;
                     border-radius: 5px;
                     transition: all 0.4s ease-in-out;
                     text-align: center;
-                    overflow: hidden;
+                    // overflow: hidden;
                     padding: 20px;
                     color: #fff;
                     cursor: pointer;
@@ -89,13 +90,15 @@
                     }
                     span{
                       font-size: 30px;
-                      margin-top: 30px;
+                      // margin-top: 30px;
                     transition: all 0.4s ease-in-out;
                     }
                    h2{
-                    font-size: 25px;
+                    font-size: 23px;
                     color: #fff;
                     margin-top: 15px;
+                    display: flex;
+                    align-items: center;
                    }
                    p{
                     margin-top: 20px;

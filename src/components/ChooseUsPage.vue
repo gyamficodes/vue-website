@@ -7,15 +7,13 @@
           <h1>Provide Exclusive Services</h1>
           <div class="line"></div>
           <div class="card-page">
-            <div class="card" :style="`background: url(${pic1})`">
-              <span class="material-icons">desktop_windows</span>
-              <h2>Deep Expertise & Leadership</h2>
+            <div class="card" :style="`background: url(${item.pic})`" v-for="item in cards" :key="item.id">
+              <span class="material-icons">{{ item.icon }}</span>
+              <h2>{{ item.title }}</h2>
               <p>
-                We have the technology and industry expertise to develop
-                solutions that can connect people and businesses across a
-                variety of mobile devices.
+               {{ item.text }}
               </p>
-              <div class="btn">read more</div>
+              <div class="btn">{{ item.btn }}</div>
             </div>
           </div>
         </div>
@@ -47,7 +45,7 @@ export default {
           id: 2,
           pic: wh2,
           btn: 'read more',
-          icon: "desktop_windows",
+          icon: "youtube_searched_for",
           title: "Cross-Industry Expertise",
           text: "  We have the technology and industry expertise to develop solutions that can connect people and businesses across a  variety of mobile devices.",
         },
@@ -55,15 +53,13 @@ export default {
           id: 3,
           pic: wh3,
           btn: 'read more',
-          icon: "desktop_windows",
+          icon: "public",
           title: "Dedicated IT Solution",
           text: "  We have the technology and industry expertise to develop solutions that can connect people and businesses across a  variety of mobile devices.",
         },
       ],
       background: image,
-      pic1: wh1,
-      pic2: wh2,
-      pic3: wh3,
+    
     };
   },
   methods: {},
