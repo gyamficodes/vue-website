@@ -5,7 +5,7 @@
         <div class="sub-content">
           <div class="card-item-box">
           <!-- main card -->
-            <a class="card activePage == index ? active " 
+            <a class="card activePage == index ? 'active' " 
             @click.prevent="activePage = index"
             :href="page.card.url" v-for="(page,index) in pages" :key="index" >
               <span class="material-icons">{{ page.card.icon }}</span>
