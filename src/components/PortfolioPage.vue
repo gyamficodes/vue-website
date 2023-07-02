@@ -11,7 +11,7 @@
 <script>
 export default {
   name: "PortfoioPage",
-  components: [],
+  components: {},
   props: [],
   methods: {},
   mounted() {},
