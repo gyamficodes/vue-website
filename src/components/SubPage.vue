@@ -5,7 +5,9 @@
         <div class="sub-content">
           <div class="card-item-box">
           <!-- main card -->
-            <a class="card activePage == index ? 'active' " 
+            <a class="card " 
+            :class="{'active': activePage === index}"
+            @click="activePageIndex"
             @click.prevent="activePage = index"
             :href="page.card.url" v-for="(page,index) in pages" :key="index" >
               <span class="material-icons">{{ page.card.icon }}</span>
@@ -55,6 +57,7 @@ export default {
   data() {
     return {
       activePage: 0,
+       activePageIndex: 0,
       pages: [
         {
          card:{text:'Digital Marketing',icon: 'laptop_mac' ,url:'page1.html'},
@@ -96,7 +99,11 @@ export default {
       ],
     };
   },
-  methods: {},
+  methods: {
+    setActivePage(index){
+      this.activePageIndex = index;
+    }
+  },
   mounted() { },
   computed: {},
   created() { },

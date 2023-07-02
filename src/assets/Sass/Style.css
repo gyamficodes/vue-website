@@ -561,15 +561,15 @@
   flex-direction: column;
   transition: all 0.4s ease-in-out;
 }
-.sub-page .main-box-sub .sub-content .card-item-box .card:hover {
-  border: 1px solid #fff !important;
-  background: #fff;
-  color: #0c5adb;
-}
 .sub-page .main-box-sub .sub-content .card-item-box .card span {
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+.sub-page .main-box-sub .sub-content .card-item-box .active {
+  border: 1px solid #fff !important;
+  background: #fff;
+  color: #0c5adb;
 }
 .sub-page .card-body {
   display: flex;
@@ -807,13 +807,110 @@
 .Portfolio-Content {
   background: #fff;
   height: auto;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
-.Portfolio-Content .Porfilo-menu {
+.Portfolio-Content .Porfilo-top {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.Portfolio-Content .Porfilo-top .port-context-top h5 {
+  letter-spacing: 0;
+  color: #0c5adb;
+  font-size: 16px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Portfolio-Content .Porfilo-top .port-context-top h1 {
+  color: #232323;
+  font-size: 40px;
+  text-align: center;
+}
+.Portfolio-Content .Porfilo-top .port-context-top .line {
+  height: 5px;
+  width: 90px;
+  background: #cbbded;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 30px;
+}
+.Portfolio-Content .Porfilo-top .port-context-top .line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #0c5adb;
+  animation: move 3s linear infinite;
+}
+@keyframes move {
+  to {
+    transform: translateX(85px);
+  }
+}
+.Portfolio-Content .Porfilo-top .port-context-top .card-box {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 30px;
+}
+.Portfolio-Content .Porfilo-top .port-context-top .card-box .card {
+  background: #f2f4ff;
+  border: medium none;
+  font-size: 16px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 12px 27px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+.Portfolio-Content .Porfilo-top .port-context-top .card-box .card:hover {
+  color: #fff;
+  background: linear-gradient(to right, #2475FC, #1129B9);
+}
+.Portfolio-Content .Porfilo-top .port-context-top .card-box .card:hover span {
+  color: #fff;
+}
+.Portfolio-Content .Porfilo-top .port-context-top .card-box .active {
+  color: #fff;
+  background: linear-gradient(to left, #2475FC, #1129B9);
+}
+.Portfolio-Content .Porfilo-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.Portfolio-Content .Porfilo-down .card-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.Portfolio-Content .Porfilo-down .card-down .image-card {
+  width: 350px;
+  height: 408px;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.Portfolio-Content .Porfilo-down .card-down .image-card:hover .body {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.Portfolio-Content .Porfilo-down .card-down .image-card .body {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
 * {

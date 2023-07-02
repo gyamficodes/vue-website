@@ -33,17 +33,22 @@
           justify-content: center;
           flex-direction: column;
           transition: all 0.4s ease-in-out;
-          &:hover {
-            border: 1px solid #fff !important;
-            background: #fff;
-            color: #0c5adb;
-          }
+          // &:hover {
+          //   border: 1px solid #fff !important;
+          //   background: #fff;
+          //   color: #0c5adb;
+          // }
 
           span {
             font-size: 20px;
             margin-top: 5px;
             margin-bottom: 15px;
           }
+        }
+        .active{
+          border: 1px solid #fff !important;
+          background: #fff;
+          color: #0c5adb;
         }
       }
     }
