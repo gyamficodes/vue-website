@@ -85,12 +85,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: left;
     padding-top: 40px;
     .card-down {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
+      transition: all 0.4s ease-in-out;
       gap: 2em;
       .image-card {
         width: 350px;
@@ -109,23 +111,23 @@
           transition: all 0.4s ease-in-out;
           position: relative;
           display: flex;
-          &:hover .body-box{
+          &:hover .body-box {
             transform: translateY(-300px);
           }
           .body-box {
             text-align: center;
-            width:290px;
-             height: 150px;
+            width: 290px;
+            height: 150px;
             background: #0c5adb;
             margin: auto;
             border-radius: 5px;
-          transition: all 0.4s ease-in-out;
-           margin-top: 430px;
-           cursor: auto;
-           &:hover span{
-            cursor: pointer;
-          }
-            span{
+            transition: all 0.4s ease-in-out;
+            margin-top: 430px;
+            cursor: auto;
+            &:hover span {
+              cursor: pointer;
+            }
+            span {
               width: 30px;
               height: 30px;
               background: #fff;
@@ -137,14 +139,13 @@
               align-items: center;
               justify-content: center;
             }
-            p{
+            p {
               font-size: 15px;
               color: #fff;
               font-size: 500;
               margin-top: 15px;
-             
             }
-            h3{
+            h3 {
               font-size: 20px;
               color: #fff;
               font-size: 500;

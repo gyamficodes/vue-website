@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="Porfilo-down">
-        <div class="card-down">
+        <div class="card-down" v-if="activePage === 0 ">
           <div
             class="image-card"
             v-for="(item, itemIndex) in loopContent"
@@ -35,6 +35,71 @@
             </div>
           </div>
         </div>
+
+        <div class="card-down" v-if="activePage === 1 ">
+          <div
+            class="image-card"
+            v-for="(item, itemIndex) in loopContent2"
+            :key="itemIndex"
+          >
+            <div class="body" :style="`background-image: url(${item.img1})`">
+              <div class="body-box">
+                <span class="material-icons">{{ item.icon }}</span>
+                <p>{{ item.text }}</p>
+                <h3>{{ item.title }}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-down" v-if="activePage === 2 ">
+          <div
+            class="image-card"
+            v-for="(item, itemIndex) in loopContent3"
+            :key="itemIndex"
+          >
+            <div class="body" :style="`background-image: url(${item.img1})`">
+              <div class="body-box">
+                <span class="material-icons">{{ item.icon }}</span>
+                <p>{{ item.text }}</p>
+                <h3>{{ item.title }}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-down" v-if="activePage === 3 ">
+          <div
+            class="image-card"
+            v-for="(item, itemIndex) in loopContent4"
+            :key="itemIndex"
+          >
+            <div class="body" :style="`background-image: url(${item.img1})`">
+              <div class="body-box">
+                <span class="material-icons">{{ item.icon }}</span>
+                <p>{{ item.text }}</p>
+                <h3>{{ item.title }}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-down" v-if="activePage === 4 ">
+          <div
+            class="image-card"
+            v-for="(item, itemIndex) in loopContent5"
+            :key="itemIndex"
+          >
+            <div class="body" :style="`background-image: url(${item.img1})`">
+              <div class="body-box">
+                <span class="material-icons">{{ item.icon }}</span>
+                <p>{{ item.text }}</p>
+                <h3>{{ item.title }}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -110,6 +175,79 @@ export default {
           text: "Design, Photoshop",
           title: "Awesome Logo Design",
         },
+      ],
+
+      loopContent2: [
+        {
+          icon: "search",
+          img1: p1,
+          text: "Prototype UX Research",
+          title: "Digital Marketing",
+        },
+      
+        {
+          icon: "search",
+          img1: p5,
+          text: "Prototype UX Research",
+          title: "Digital Marketing",
+        },
+        
+     
+      ],
+      loopContent3: [
+       
+        {
+          icon: "search",
+          img1: p2,
+          text: "UX Research",
+          title: "Awesome Creative",
+        },
+        {
+          icon: "search",
+          img1: p3,
+          text: "Design, Photoshop",
+          title: "Business Solution",
+        },
+        {
+          icon: "search",
+          img1: p4,
+          text: "Software Engineer",
+          title: "Company Project",
+        },
+       
+      ],
+      loopContent4: [
+       
+        {
+          icon: "search",
+          img1: p4,
+          text: "Software Engineer",
+          title: "Company Project",
+        },
+       
+        {
+          icon: "search",
+          img1: p6,
+          text: "Design, Photoshop",
+          title: "Awesome Logo Design",
+        },
+      ],
+      loopContent5: [
+        {
+          icon: "search",
+          img1: p1,
+          text: "Prototype UX Research",
+          title: "Digital Marketing",
+        },
+      
+        {
+          icon: "search",
+          img1: p5,
+          text: "Prototype UX Research",
+          title: "Digital Marketing",
+        },
+        
+     
       ],
     };
   },
