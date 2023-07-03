@@ -166,8 +166,8 @@ export default {
         {
           icon: "search",
           img1: p5,
-          text: "Prototype UX Research",
-          title: "Digital Marketing",
+          text: "Photoshop",
+          title: "Mastering Web Design",
         },
         {
           icon: "search",
@@ -188,8 +188,8 @@ export default {
         {
           icon: "search",
           img1: p5,
-          text: "Prototype UX Research",
-          title: "Digital Marketing",
+          text: "Photoshop",
+          title: "Mastering Web Design",
         },
         
      
@@ -243,8 +243,8 @@ export default {
         {
           icon: "search",
           img1: p5,
-          text: "Prototype UX Research",
-          title: "Digital Marketing",
+          text: "Photoshop",
+          title: "Mastering Web Design",
         },
         
      
