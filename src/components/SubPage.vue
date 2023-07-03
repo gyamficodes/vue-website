@@ -57,7 +57,6 @@ export default {
   data() {
     return {
       activePage: 0,
-       activePageIndex: 0,
       pages: [
         {
          card:{text:'Digital Marketing',icon: 'laptop_mac' ,url:'page1.html'},
@@ -100,9 +99,7 @@ export default {
     };
   },
   methods: {
-    setActivePage(index){
-      this.activePageIndex = index;
-    }
+   
   },
   mounted() { },
   computed: {},

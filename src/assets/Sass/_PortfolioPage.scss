@@ -16,7 +16,7 @@
         text-align: center;
         margin-bottom: 20px;
       }
-      h1{
+      h1 {
         color: #232323;
         font-size: 40px;
         text-align: center;
@@ -50,66 +50,109 @@
           }
         }
       }
-      .card-box{
+      .card-box {
         display: flex;
         align-items: center;
         gap: 1em;
         margin-top: 30px;
-        .card{
-            background: #f2f4ff;
-    border: medium none;
-    font-size: 16px;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
-    text-transform: capitalize;
-    padding: 12px 27px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    &:hover{
-        color: #fff;
-        background: linear-gradient(to right, #2475FC, #1129B9);
-    }
-    &:hover span{
-        color: #fff;
-    }
-        }
-     .active{
+        .card {
+          background: #f2f4ff;
+          border: medium none;
+          font-size: 16px;
+          transition: all 0.4s ease-in-out;
+          cursor: pointer;
+          text-transform: capitalize;
+          padding: 12px 27px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          border-radius: 5px;
+          &:hover {
             color: #fff;
-        background: linear-gradient(to left, #2475FC, #1129B9);
+            background: linear-gradient(to right, #2475fc, #1129b9);
+          }
+          &:hover span {
+            color: #fff;
+          }
+        }
+        .active {
+          color: #fff;
+          background: linear-gradient(to left, #2475fc, #1129b9);
         }
       }
     }
   }
-  .Porfilo-down{
+  .Porfilo-down {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 40px;
-    .card-down{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 2em;
-        .image-card{
-            width: 350px;
-            height: 408px;
-            overflow: hidden;
-            transition: all 0.4s ease-in-out;
-            &:hover .body{
-               transform: scale(1.08);
-               cursor: pointer;
-            }
-            .body{
-                background-position: center;
-                background-size: cover;
-                width: 100%;
-                height: 100%;
-                transition: all 0.4s ease-in-out;
-            
-            }
+    .card-down {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2em;
+      .image-card {
+        width: 350px;
+        height: 408px;
+        overflow: hidden;
+        transition: all 0.4s ease-in-out;
+        &:hover .body {
+          transform: scale(1.08);
+          cursor: pointer;
         }
+        .body {
+          background-position: center;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          transition: all 0.4s ease-in-out;
+          position: relative;
+          display: flex;
+          &:hover .body-box{
+            transform: translateY(-300px);
+          }
+          .body-box {
+            text-align: center;
+            width:290px;
+             height: 150px;
+            background: #0c5adb;
+            margin: auto;
+            border-radius: 5px;
+          transition: all 0.4s ease-in-out;
+           margin-top: 430px;
+           cursor: auto;
+           &:hover span{
+            cursor: pointer;
+          }
+            span{
+              width: 30px;
+              height: 30px;
+              background: #fff;
+              color: #2475fc;
+              margin: auto;
+              border-radius: 3px;
+              margin-top: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            p{
+              font-size: 15px;
+              color: #fff;
+              font-size: 500;
+              margin-top: 15px;
+             
+            }
+            h3{
+              font-size: 20px;
+              color: #fff;
+              font-size: 500;
+              margin-top: 13px;
+            }
+          }
+        }
+      }
     }
   }
 }
