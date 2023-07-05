@@ -958,6 +958,16 @@
   margin-top: 13px;
 }
 
+.ContactPage {
+  height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 * {
   padding: 0;
   margin: 0;

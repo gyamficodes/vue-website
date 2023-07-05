@@ -7,6 +7,7 @@
     <SubPageVue />
     <ChooseUsPage/>
     <PortfolioPage/>
+    <ContactPageVue/>
   </div>
 </template>
 
@@ -19,7 +20,7 @@ import TapAreaPage from "@/components/TapAreaPage.vue";
 import SubPageVue from "@/components/SubPage.vue";
 import ChooseUsPage from "@/components/ChooseUsPage.vue";
 import PortfolioPage from "@/components/PortfolioPage.vue";
-
+import ContactPageVue from "@/components/ContactPage.vue";
 export default {
   name: "HomeView",
   components: {
@@ -30,6 +31,7 @@ export default {
     SubPageVue,
     ChooseUsPage,
     PortfolioPage,
+    ContactPageVue,
   },
 };
 </script>
