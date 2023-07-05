@@ -991,7 +991,7 @@
   width: 90px;
   background: #cbbded;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
   border-radius: 30px;
 }
@@ -1010,6 +1010,101 @@
   to {
     transform: translateX(85px);
   }
+}
+.ContactPage .contact-page-menu .contactpage-down .input-page {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.ContactPage .contact-page-menu .contactpage-down .input-page input {
+  width: 500px;
+  height: 50px;
+  padding-left: 15px;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.ContactPage .contact-page-menu .contactpage-down .input-page :focus:hover {
+  outline: 1px solid #fff;
+}
+.ContactPage .contact-page-menu .contactpage-down .input-page ::-moz-placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ContactPage .contact-page-menu .contactpage-down .input-page ::placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ContactPage .contact-page-menu .contactpage-down .text-area {
+  margin-top: 30px;
+}
+.ContactPage .contact-page-menu .contactpage-down .text-area textarea {
+  background: transparent;
+  padding-left: 15px;
+  padding-top: 20px;
+  height: 250px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+}
+.ContactPage .contact-page-menu .contactpage-down .text-area :focus:hover {
+  outline: 1px solid #fff;
+}
+.ContactPage .contact-page-menu .contactpage-down .text-area ::-moz-placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ContactPage .contact-page-menu .contactpage-down .text-area ::placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ContactPage .contact-page-menu .contactpage-down .btn-a {
+  width: 190px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.ContactPage .contact-page-menu .contactpage-down .btn-a:hover {
+  color: #fff;
+}
+.ContactPage .contact-page-menu .contactpage-down .btn-a::after {
+  content: "";
+  top: 0;
+  left: 0;
+  background: #1129b9;
+  transform: scale(0);
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.ContactPage .contact-page-menu .contactpage-down .btn-a:hover::after {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
 }
 
 * {
