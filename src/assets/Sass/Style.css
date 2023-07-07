@@ -1178,10 +1178,24 @@
   transition: all 0.4s ease-in-out;
 }
 .TeamMemberPage .Team-down .Team-cards .cards:hover {
-  transform: translateY(-10px);
+  transform: translateY(-2px);
 }
 .TeamMemberPage .Team-down .Team-cards .cards:hover .card-image .links {
   transform: translateX(170px);
+}
+.TeamMemberPage .Team-down .Team-cards .cards:hover .card-image {
+  transform: scale(1.08);
+}
+.TeamMemberPage .Team-down .Team-cards .cards:hover .card-image::after {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 90, 219, 0.85);
+  content: "";
+  transition: all 0.4s ease-in-out;
 }
 .TeamMemberPage .Team-down .Team-cards .cards .card-image {
   height: 80%;
@@ -1193,6 +1207,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease-in-out;
+  position: relative;
 }
 .TeamMemberPage .Team-down .Team-cards .cards .card-image .links {
   width: 90px;
@@ -1218,6 +1233,25 @@
   height: 20%;
   background: #fff;
   border-bottom: 2px solid #0c5adb;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.TeamMemberPage .Team-down .Team-cards .cards .card-text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  color: #232323;
+  margin-bottom: 4px;
+}
+.TeamMemberPage .Team-down .Team-cards .cards .card-text h4:hover {
+  color: #0c5adb;
+  cursor: pointer;
+}
+.TeamMemberPage .Team-down .Team-cards .cards .card-text p {
+  color: #0c5adb;
 }
 
 * {
