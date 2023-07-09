@@ -9,6 +9,7 @@
     <PortfolioPage/>
     <ContactPageVue/>
     <TeamMemberPage/>
+    <RequestPage/>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import ChooseUsPage from "@/components/ChooseUsPage.vue";
 import PortfolioPage from "@/components/PortfolioPage.vue";
 import ContactPageVue from "@/components/ContactPage.vue";
 import TeamMemberPage from "@/components/TeamMemberPage.vue";
+import RequestPage from "@/components/RequestPage.vue";
 export default {
   name: "HomeView",
   components: {
@@ -34,7 +36,8 @@ export default {
     ChooseUsPage,
     PortfolioPage,
     ContactPageVue,
-    TeamMemberPage
+    TeamMemberPage,
+    RequestPage,
   },
 };
 </script>
