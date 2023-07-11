@@ -9,7 +9,7 @@
             further information
           </h1>
           <div class="btn">
-          <a href="#">join with now </a>
+          <a href="#">join with now <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
