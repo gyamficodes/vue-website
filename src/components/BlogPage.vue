@@ -7,17 +7,37 @@
           <h3>{{ item.text }}</h3>
         </div>
       </div>
+      <div class="page-content">
+        <di class="page-area">
+          <div class="topA">
+            <h5>LATEST ARTICLE</h5>
+            <h1>Our Latest Blog Posts</h1>
+            <div class="line"></div>
+          </div>
+          <div class="downB">
+          <div class="card">
+          <div class="card-img" :style="`background: url(${blog})`"></div>
+          <div class="card-body">
+           <div class="date"></div>
+          </div>
+          </div>
+          </div>
+        </di>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import blog1 from '../assets/blog1.jpg';
+
 export default {
   name: "BlogPage",
   components: {},
   props: [],
   data() {
     return {
+       blog:blog1,
       numbers: [
         {
           id: 1,

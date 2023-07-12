@@ -20,10 +20,10 @@
     flex-wrap: wrap;
     gap: 8em;
     .content {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        // justify-content: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      // justify-content: center;
       h1 {
         font-size: 40px;
         font-weight: 800;
@@ -37,17 +37,94 @@
       }
     }
   }
+  .page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    .page-area {
+      .topA {
+        margin-bottom: 40px;
+        h5 {
+          letter-spacing: 0;
+          color: #0c5adb;
+          font-size: 16px;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        h1 {
+          font-weight: 800;
+          font-size: 42px;
+          color: #232323;
+          // font-family: 'Muli', sans-serif;
+          font-style: normal;
+        }
+        .line {
+          height: 5px;
+          width: 90px;
+          background: #cbbded;
+          margin: auto;
+          margin-top: 30px;
+          position: relative;
+          border-radius: 30px;
 
-  .content {
-    h1 {
-      font-size: 40px;
-      font-weight: 800;
-      margin-left: 20px;
-    }
-    h3 {
-      margin-top: 6px;
-      color: #0c5adb;
-      font-family: 20px;
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -2.7px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #0c5adb;
+            animation: move 3s linear infinite;
+          }
+
+          &:hover::after {
+            @keyframes move {
+              to {
+                transform: translateX(85px);
+              }
+            }
+          }
+        }
+      }
+      .downB {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        .card {
+          width: 320px;
+          height: 500px;
+          border: 1px solid #ccc;
+          flex-direction: column;
+          overflow: hidden;
+          position: relative;
+          transition: all 0.4s ease-in-out;
+
+          &:hover {
+            box-shadow: 0px 10px 20px #ccc;
+          }
+          .card-img {
+            width: 100%;
+            height: 50%;
+            background: #0c5adb;
+            transition: all 0.4s ease-in-out;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card-body {
+            width: 100%;
+            height: 50%;
+            background: #fff;
+            position: relative;
+            padding-left: 1.5rem;
+            padding-right: 1.7rem;
+          }
+        }
+      }
     }
   }
 }
