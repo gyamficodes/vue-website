@@ -122,6 +122,11 @@
             position: relative;
             padding-left: 1.5rem;
             padding-right: 1.7rem;
+            .date{
+              display: flex;
+              align-items: center;
+              gap: 0.5em;
+            }
           }
         }
       }

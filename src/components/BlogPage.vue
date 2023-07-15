@@ -15,12 +15,14 @@
             <div class="line"></div>
           </div>
           <div class="downB">
-          <div class="card">
-          <div class="card-img" :style="`background: url(${blog})`"></div>
-          <div class="card-body">
-           <div class="date"></div>
-          </div>
-          </div>
+            <div class="card">
+              <div class="card-img" :style="`background: url(${blog})`"></div>
+              <div class="card-body">
+                <div class="date">
+                <a href="#"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </di>
       </div>
@@ -29,7 +31,7 @@
 </template>
 
 <script>
-import blog1 from '../assets/blog1.jpg';
+import blog1 from "../assets/blog1.jpg";
 
 export default {
   name: "BlogPage",
@@ -37,7 +39,7 @@ export default {
   props: [],
   data() {
     return {
-       blog:blog1,
+      blog: blog1,
       numbers: [
         {
           id: 1,
