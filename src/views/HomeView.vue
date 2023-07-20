@@ -11,6 +11,7 @@
     <TeamMemberPage/>
     <RequestPage/>
     <BlogPage/>
+    <FooterPage/>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import ContactPageVue from "@/components/ContactPage.vue";
 import TeamMemberPage from "@/components/TeamMemberPage.vue";
 import RequestPage from "@/components/RequestPage.vue";
 import BlogPage from "@/components/BlogPage.vue";
+import FooterPage from "@/components/FooterPage.vue";
 
 export default {
   name: "HomeView",
@@ -41,7 +43,8 @@ export default {
     ContactPageVue,
     TeamMemberPage,
     RequestPage,
-    BlogPage
+    BlogPage,
+    FooterPage,
   },
 };
 </script>

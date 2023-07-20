@@ -2,7 +2,7 @@
   height: auto;
   background: #fff;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   .box {
     width: 90%;
     height: auto;
@@ -93,7 +93,7 @@
       .downB {
         display: flex;
         align-items: center;
-        gap: 1em;
+        gap: 2em;
         .card {
           width: 320px;
           height: 500px;
@@ -149,46 +149,45 @@
                 line-height: 27px;
               }
             }
-            .title{
-         font-size: 20px;
-         color: #232323;
-         font-weight: 800;
-         text-decoration: none;
-         &:hover {
-          color: #0c5adb;
-        }
+            .title {
+              font-size: 20px;
+              color: #232323;
+              font-weight: 800;
+              text-decoration: none;
+              &:hover {
+                color: #0c5adb;
+              }
             }
-            p{
+            p {
               font-weight: 400;
-    font-style: normal;
-    color: #616161;
-    margin-top: 10px;
-    line-height: 1.5;
+              font-style: normal;
+              color: #616161;
+              margin-top: 10px;
+              line-height: 1.5;
             }
-           
-            .box-text{
+
+            .box-text {
               margin-top: 10px;
               display: flex;
               align-items: center;
               gap: 0.1em;
               &:hover {
-               color: #0c5adb;
-               cursor: pointer;
+                color: #0c5adb;
+                cursor: pointer;
+              }
 
-             }
-              
-              h4{
+              h4 {
                 text-transform: capitalize;
                 font-size: 15px;
                 font-weight: 600;
                 color: #616161;
                 cursor: pointer;
               }
-           span{
-            font-size: medium;
-            margin-top: 2px;
-            // margin-left: 4px;
-           }
+              span {
+                font-size: medium;
+                margin-top: 2px;
+                // margin-left: 4px;
+              }
             }
           }
         }

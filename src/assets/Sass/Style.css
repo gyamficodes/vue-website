@@ -1345,6 +1345,84 @@
   transition: all 0.4s ease-in-out;
 }
 
+.footer_Page {
+  height: auto;
+  background: #111a3a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer_Page .Subscribe-Page {
+  width: 70%;
+  height: auto;
+  padding: 40px;
+  margin: auto;
+  background: #0c5adb;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -200px;
+}
+.footer_Page .Subscribe-Page .sub-page-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer_Page .Subscribe-Page .sub-page-text .box-sub {
+  background: #fff;
+  padding: 30px 40px 25px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.footer_Page .Subscribe-Page .sub-page-text .box-sub input {
+  font-size: 14px;
+  height: 60px;
+  padding: 5px 25px;
+  width: 28vw;
+  background: #f6f6fc;
+  border-radius: 40px;
+  border: none !important;
+  outline: none !important;
+  transition: all 0.1s ease-in-out;
+}
+.footer_Page .Subscribe-Page .sub-page-text .box-sub input:focus:hover {
+  outline: 3px solid #c9e3ff !important;
+}
+.footer_Page .Subscribe-Page .sub-page-text .box-sub ::-moz-placeholder {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.footer_Page .Subscribe-Page .sub-page-text .box-sub ::placeholder {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.footer_Page .Subscribe-Page .sub-page-text .btnA {
+  width: 150px;
+  height: 60px;
+  background: #0c5adb;
+  border-radius: 1.5rem 1.5rem 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_Page .Subscribe-Page .sub-page-text .btnA span {
+  color: #fff;
+  font-weight: 700;
+}
+.footer_Page .sub-content-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 4em;
+}
+
 * {
   padding: 0;
   margin: 0;
