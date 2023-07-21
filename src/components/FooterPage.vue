@@ -18,7 +18,14 @@
       </div>
 
       <div class="footer-nav">
-        <h1>dsgfdgd</h1>
+        <div class="footer-nav-menu">
+          <span>© 2023 Techno.All Rights Reserved.</span>
+          <div class="links-footer">
+            <a href="#">Privacy Policy</a>
+            <a class="pin" href="#">/</a>
+            <a href="#"> Terms & Conditions</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
