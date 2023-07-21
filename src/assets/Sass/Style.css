@@ -1403,16 +1403,26 @@
 .footer_Page .Subscribe-Page .sub-page-text .btnA {
   width: 150px;
   height: 60px;
-  background: #0c5adb;
   border-radius: 1.5rem 1.5rem 1.5rem;
+  border-left: 3px solid #0c5adb;
+  border-right: 3px solid #0c5adb;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+.footer_Page .Subscribe-Page .sub-page-text .btnA:hover {
+  background: #0c5adb;
+  border-radius: 1.5rem 1.5rem 1.5rem;
+}
+.footer_Page .Subscribe-Page .sub-page-text .btnA:hover span {
+  color: #fff;
 }
 .footer_Page .Subscribe-Page .sub-page-text .btnA span {
-  color: #fff;
+  color: #0c5adb;
   font-weight: 700;
+  transition: all 0.4s ease-in-out;
 }
 .footer_Page .sub-content-page {
   display: flex;
