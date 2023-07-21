@@ -1349,7 +1349,6 @@
   height: auto;
   background: #111a3a;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 .footer_Page .Subscribe-Page {
   width: 70%;
@@ -1421,6 +1420,11 @@
   justify-content: center;
   margin-top: 80px;
   gap: 4em;
+  padding-bottom: 100px;
+}
+.footer_Page .footer-nav {
+  height: 70px;
+  border-top: 1px solid #ccc;
 }
 
 * {
