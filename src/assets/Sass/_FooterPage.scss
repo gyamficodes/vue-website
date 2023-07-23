@@ -64,18 +64,17 @@
         align-items: center;
         justify-content: center;
         transition: all 0.4s ease-in-out;
-        &:hover{
+        &:hover {
           background: #0c5adb;
-        border-radius: 1.5rem 1.5rem 1.5rem;
-      span{
-        color: #fff;
-      }
+          border-radius: 1.5rem 1.5rem 1.5rem;
+          span {
+            color: #fff;
+          }
         }
         span {
           color: #0c5adb;
           font-weight: 700;
-        transition: all 0.4s ease-in-out;
-
+          transition: all 0.4s ease-in-out;
         }
       }
     }

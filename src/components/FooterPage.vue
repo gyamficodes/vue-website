@@ -13,8 +13,8 @@
         </div>
       </div>
       <div class="sub-content-page">
-        <div>fesdgd</div>
-        <div>dsgfeht</div>
+        <div class="sub-footer-left">fesdgd</div>
+        <div class="sub-footer-right">dsgfeht</div>
       </div>
 
       <div class="footer-nav">
