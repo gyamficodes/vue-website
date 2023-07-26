@@ -1,7 +1,7 @@
 $blue-color: #0c5adb;
 $tex-c: #232323;
 $p-text: #616166;
-
+$text: #fff;
 .About-content {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -86,7 +86,7 @@ $p-text: #616166;
         width: 170px;
         height: 50px;
         background: $blue-color;
-        color: #fff;
+        color: $text;
         margin-top: 30px;
         margin-left: 20px;
         border-radius: 1.5rem 1.5rem;
@@ -157,7 +157,7 @@ $p-text: #616166;
            .icon{
             width: 90px;
             height: 90px;
-            background: #fff;
+            background: $text;
             border-radius: 50%;
             display: flex;
             align-items: center;

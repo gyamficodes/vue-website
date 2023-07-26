@@ -1,3 +1,4 @@
+$text: #fff;
 .RequesstPage {
   height: auto;
   background-position: center;
@@ -30,20 +31,20 @@
         letter-spacing: 1px;
         font-weight: 500;
         font-size: 20px;
-        color: #fff;
+        color: $text;
         text-align: center;
         margin-bottom: 20px;
       }
       h1 {
         font-weight: 500;
         font-size: 40px;
-        color: #fff;
+        color: $text;
         text-align: center;
         margin-bottom: 20px;
         font-weight: 700;
       }
       .btn {
-        background: #fff;
+        background: $text;
         width: 200px;
         height: 50px;
         color: #0c5adb;
@@ -57,10 +58,10 @@
         position: relative;
         z-index: 1;
         &:hover a {
-            color: #fff;
+            color: $text;
         }
         &:hover a i {
-            color: #fff;
+            color: $text;
         }
         &::after{
             content: '';

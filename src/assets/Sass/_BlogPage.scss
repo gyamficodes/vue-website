@@ -1,3 +1,5 @@
+
+$text: #fff;
 .Blog-Page {
   height: auto;
   background: #fff;
@@ -7,7 +9,7 @@
     width: 90%;
     height: auto;
     padding: 40px;
-    background: #ffffff;
+    background: $tex;
     border-radius: 15px;
     box-shadow: 11px 11px 38px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -119,7 +121,7 @@
           .card-body {
             width: 100%;
             height: 50%;
-            background: #fff;
+            background: $tex;
             position: relative;
             padding-left: 1.5rem;
             padding-right: 2rem;

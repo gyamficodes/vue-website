@@ -1,5 +1,6 @@
+$text: #fff;
 .Portfolio-Content {
-  background: #fff;
+  background: $text;
   height: auto;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -67,15 +68,15 @@
           letter-spacing: 2px;
           border-radius: 5px;
           &:hover {
-            color: #fff;
+            color: $text;
             background: linear-gradient(to right, #2475fc, #1129b9);
           }
           &:hover span {
-            color: #fff;
+            color: $text;
           }
         }
         .active {
-          color: #fff;
+          color: $text;
           background: linear-gradient(to left, #2475fc, #1129b9);
         }
       }
@@ -130,7 +131,7 @@
             span {
               width: 30px;
               height: 30px;
-              background: #fff;
+              background: $text;
               color: #2475fc;
               margin: auto;
               border-radius: 3px;
@@ -141,13 +142,13 @@
             }
             p {
               font-size: 15px;
-              color: #fff;
+              color: $text;
               font-size: 500;
               margin-top: 15px;
             }
             h3 {
               font-size: 20px;
-              color: #fff;
+              color: $text;
               font-size: 500;
               margin-top: 13px;
             }

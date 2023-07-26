@@ -1,3 +1,4 @@
+$text: #fff;
 .ContactPage {
   height: auto;
   padding-top: 100px;
@@ -13,14 +14,14 @@
     justify-content: center;
     .contactpage-top {
       h4 {
-        color: #fff;
+        color: $text;
         font-size: 15px;
         font-weight: 700;
         text-align: center;
         margin-bottom: 10px;
       }
       h1 {
-        color: #fff;
+        color: $text;
         font-size: 42px;
         font-weight: 800;
         text-align: center;
@@ -68,19 +69,19 @@
           height: 50px;
           padding-left: 15px;
           background: transparent;
-          border: 1px solid #fff;
+          border: 1px solid $text;
           outline: none;
           border-radius: 5px;
-          color: #fff;
+          color: $text;
           // :focus{
           //   outline: none;
           // }
         }
         :focus:hover {
-          outline: 1px solid #fff;
+          outline: 1px solid $text;
         }
         ::placeholder {
-          color: #fff;
+          color: $text;
           font-size: 15px;
           font-weight: 600;
           text-transform: capitalize;
@@ -93,17 +94,17 @@
           padding-left: 15px;
           padding-top: 20px;
           height: 250px;
-          border: 1px solid #fff;
+          border: 1px solid $text;
           border-radius: 5px;
-          color: #fff;
+          color: $text;
           outline: none;
 
         }
         :focus:hover {
-          outline: 1px solid #fff;
+          outline: 1px solid $text;
         }
         ::placeholder {
-          color: #fff;
+          color: $text;
           font-size: 15px;
           font-weight: 600;
           text-transform: capitalize;
@@ -112,7 +113,7 @@
       .btn-a{
         width: 190px;
         height: 50px;
-        background: #fff;
+        background: $text;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -126,7 +127,7 @@
         transition: all 0.3s ease-in-out;
         cursor: pointer;
         &:hover{
-          color: #fff;
+          color: $text;
         }
         &::after {
           content: "";

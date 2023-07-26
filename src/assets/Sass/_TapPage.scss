@@ -1,3 +1,4 @@
+$text: #fff;
 .Tap-Page {
   height: 400px;
   background-position: center center;
@@ -14,13 +15,13 @@
       .text-content {
         h3 {
           font-size: 20px;
-          color: #fff;
+          color:$text ;
           font-weight: 500;
           margin-bottom: 20px;
           text-align: center;
         }
         h1 {
-          color: #fff;
+          color: $text;
           font-size: 42px;
           font-weight: 600;
           text-align: center;
@@ -59,7 +60,7 @@
           text-align: center;
           line-height: 1.5;
           font-weight: 400;
-          color: #fff;
+          color: $text;
           text-align: center;
           margin-top: 20px;
         }

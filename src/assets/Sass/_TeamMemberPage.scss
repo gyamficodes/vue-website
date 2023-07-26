@@ -1,3 +1,4 @@
+$text: #fff;
 .TeamMemberPage {
   height: auto;
   background: #eff2f7;
@@ -115,7 +116,7 @@
             width: 90px;
             height: 130px;
             padding: 10px;
-            background: #fff;
+            background: $text;
             margin: auto;
             display: flex;
             // align-items: center;
@@ -139,7 +140,7 @@
 
         .card-text {
           height: 20%;
-          background: #fff;
+          background: $text;
           border-bottom: 2px solid #0c5adb;
           position: relative;
           display: flex;
