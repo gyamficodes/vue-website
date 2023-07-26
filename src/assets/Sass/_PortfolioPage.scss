@@ -1,13 +1,21 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .Portfolio-Content {
   background: $text;
   height: auto;
   padding-top: 50px;
   padding-bottom: 100px;
   .Porfilo-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ @include flex-boxB();
     .port-context-top {
       h5 {
         letter-spacing: 0;
@@ -83,15 +91,12 @@ $text: #fff;
     }
   }
   .Porfilo-down {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   @include flex-boxB();
     text-align: left;
     padding-top: 40px;
     .card-down {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex-boxB();
+
       flex-wrap: wrap;
       transition: all 0.4s ease-in-out;
       gap: 2em;
@@ -136,9 +141,8 @@ $text: #fff;
               margin: auto;
               border-radius: 3px;
               margin-top: 30px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
+              @include flex-boxB();
+
             }
             p {
               font-size: 15px;

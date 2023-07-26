@@ -1,4 +1,14 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sub-page {
   height: auto;
   padding-top: 50px;
@@ -9,9 +19,8 @@ $text: #fff;
     align-items: center;
     justify-content: center;
     .sub-content {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex-boxB();
+
       .card-item-box {
         display: flex;
         align-items: center;
@@ -29,9 +38,8 @@ $text: #fff;
           z-index: 99;
           margin-top: -210px;
           text-decoration: none;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          @include flex-boxB();
+
           flex-direction: column;
           transition: all 0.4s ease-in-out;
           // &:hover {
@@ -55,9 +63,8 @@ $text: #fff;
     }
   }
   .card-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-boxB();
+
     gap: 2em;
     .card-left {
       img {
@@ -106,9 +113,8 @@ $text: #fff;
           border-radius: 5px;
           color: $text;
           cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          @include flex-boxB();
+
           gap: 0.4em;
           text-transform: capitalize;
           transition: 0.4s ease-in-out;
@@ -143,9 +149,8 @@ $text: #fff;
            border-radius: 5px;
            color: $text;
            cursor: pointer;
-           display: flex;
-           align-items: center;
-           justify-content: center;
+           @include flex-boxB();
+
            gap: 0.4em;
            text-transform: capitalize;
            transition: 0.4s ease-in-out; 

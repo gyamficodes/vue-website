@@ -1,4 +1,14 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .choosePage{
     height: auto;
     padding-top: 50px;
@@ -9,9 +19,7 @@ $text: #fff;
     position: relative;
     background-attachment: fixed !important;
     .choose-content{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-boxB();
         text-align: center;
         .choose{
             h3{
@@ -114,9 +122,7 @@ $text: #fff;
                     color: blue;
                     margin: auto;
                     margin-top: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                   @include flex-boxB();
                     text-transform: capitalize;
                     border-radius: 5px;
                     &:hover{

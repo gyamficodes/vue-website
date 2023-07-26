@@ -1,4 +1,14 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .ContactPage {
   height: auto;
   padding-top: 100px;
@@ -9,9 +19,7 @@ $text: #fff;
   background-attachment: fixed;
 
   .contact-page-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-boxB();
     .contactpage-top {
       h4 {
         color: $text;
@@ -114,9 +122,7 @@ $text: #fff;
         width: 190px;
         height: 50px;
         background: $text;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       @include flex-boxB();
         margin: auto;
         // color: #0c5adb;
         border-radius: 5px;

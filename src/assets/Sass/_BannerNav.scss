@@ -1,14 +1,22 @@
 $bd: #ccc;
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .nav {
   height: 80px;
   // border-bottom: 1px solid $bd;
   // position: relative;
 
   .nav-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  @include flex-box();
     height: 100%;
     .nav-left {
       .logo {
@@ -115,9 +123,7 @@ $text: #fff;
           height: 50px;
           background: #0c5adb;
           border-radius: 1.5rem 1.5rem;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+         @include flex-boxB();
           cursor: pointer;
           position: relative;
           transition: all 0.5s ease-in-out;

@@ -2,6 +2,17 @@ $blue-color: #0c5adb;
 $tex-c: #232323;
 $p-text: #616166;
 $text: #fff;
+$text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .About-content {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -9,9 +20,7 @@ $text: #fff;
   height: auto;
 
   .About-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  @include flex-boxB();
     gap: 2em;
     .page-text {
       h2 {
@@ -90,9 +99,7 @@ $text: #fff;
         margin-top: 30px;
         margin-left: 20px;
         border-radius: 1.5rem 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      @include flex-boxB();
         &:hover{
             background: #1129b9;
         }
@@ -151,17 +158,13 @@ $text: #fff;
             background-position: center  center;
             background-repeat: no-repeat;
             background-size: cover;
-           display: flex;
-           align-items: center;
-           justify-content: center;
+         @include flex-boxB();
            .icon{
             width: 90px;
             height: 90px;
             background: $text;
             border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+           @include flex-boxB();
             color: #1129b9;
             font-size: 20px;
             cursor: pointer;

@@ -6,21 +6,28 @@ $text: #fff;
   background-attachment: fixed;
 //   background-attachment: fixed;
 }
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .banner-page {
   height: 100vh ;
   @include img-tex();
   overflow: hidden;
   position: relative;
   .banner-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-boxB();
     height: 100%;
     // padding-top: 140px;
     .content-menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flex-box();
       height: 100%;
       .content-text {
         h1 {
@@ -45,9 +52,7 @@ $text: #fff;
             height: 50px;
             background: #0c5adb;
             border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include flex-boxB();
             cursor: pointer;
             position: relative;
             transition: all 0.5s ease-in-out;

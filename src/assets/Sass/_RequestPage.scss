@@ -1,4 +1,14 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .RequesstPage {
   height: auto;
   background-position: center;
@@ -23,9 +33,7 @@ $text: #fff;
     height: 100%;
   }
   .Request-page-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   @include flex-boxB();
     .Request-content {
       h4 {
         letter-spacing: 1px;
@@ -50,9 +58,8 @@ $text: #fff;
         color: #0c5adb;
         margin: auto;
         border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-boxB();
+
         gap: 0.5em;
         cursor: pointer;
         position: relative;
