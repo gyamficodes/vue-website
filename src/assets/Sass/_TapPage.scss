@@ -1,4 +1,14 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .Tap-Page {
   height: 400px;
   background-position: center center;
@@ -9,9 +19,8 @@ $text: #fff;
   padding-top: 100px;
   .Tap-content {
     .Tap-text {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex-boxB();
+
       .text-content {
         h3 {
           font-size: 20px;

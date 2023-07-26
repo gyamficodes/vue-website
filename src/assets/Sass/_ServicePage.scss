@@ -1,4 +1,14 @@
 $text: #fff;
+@mixin flex-box(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .service-page-content {
   height: 200px;
   padding-top: 100px;
@@ -7,9 +17,8 @@ $text: #fff;
   position: relative;
   background-attachment: fixed !important;
   .service-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-boxB();
+
     height: 100%;
     .text-card {
       display: flex;
