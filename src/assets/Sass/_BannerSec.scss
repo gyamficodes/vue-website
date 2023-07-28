@@ -1,4 +1,5 @@
 $text: #fff;
+$blu-text-colo:#0c5adb;
 @mixin img-tex {
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -50,7 +51,7 @@ $text: #fff;
           .nav-btn {
             width: 200px;
             height: 50px;
-            background: #0c5adb;
+            background: $blu-text-colo;
             border-radius: 5px;
             @include flex-boxB();
             cursor: pointer;
@@ -63,7 +64,7 @@ $text: #fff;
               //   top: 0;
               left: 0;
               bottom: 0;
-              background: #1129b9;
+              background: $blu-text-colo;
               //   transform: scale(0);
               width: 0%;
               height: 60%;

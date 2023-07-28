@@ -1,4 +1,5 @@
 $text: #fff;
+$blu-text-colo:#0c5adb;
 @mixin flex-box(){
   display: flex;
   align-items: center;
@@ -21,7 +22,7 @@ $text: #fff;
     .team-top-content {
       h6 {
         letter-spacing: 0;
-        color: #0c5adb;
+        color: $blu-text-colo;
         font-size: 16px;
         text-align: center;
         margin-bottom: 20px;
@@ -51,7 +52,7 @@ $text: #fff;
           height: 10px;
           width: 10px;
           border-radius: 50%;
-          background: #0c5adb;
+          background: $blu-text-colo;
           animation: move 3s linear infinite;
         }
 
@@ -136,7 +137,7 @@ $text: #fff;
               text-decoration: none;
 
               i {
-                color: #0c5adb;
+                color: $blu-text-colo;
               }
             }
           }
@@ -145,7 +146,7 @@ $text: #fff;
         .card-text {
           height: 20%;
           background: $text;
-          border-bottom: 2px solid #0c5adb;
+          border-bottom: 2px solid $blu-text-colo;
           position: relative;
           @include flex-boxB();
           flex-direction: column;
@@ -156,12 +157,12 @@ $text: #fff;
             color: #232323;
             margin-bottom: 4px;
             &:hover  {
-                color: #0c5adb;
+                color: $blu-text-colo;
                 cursor: pointer;
             }
           }
           p{
-            color: #0c5adb;
+            color: $blu-text-colo;
           }
         }
       }

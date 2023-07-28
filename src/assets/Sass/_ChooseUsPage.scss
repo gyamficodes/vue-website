@@ -1,4 +1,5 @@
 $text: #fff;
+$blu-text-colo:#0c5adb;
 @mixin flex-box(){
   display: flex;
   align-items: center;
@@ -126,7 +127,7 @@ $text: #fff;
                     text-transform: capitalize;
                     border-radius: 5px;
                     &:hover{
-                      background: #0c5adb;
+                      background: $blu-text-colo;
                       color: $text;
                     }
                    }

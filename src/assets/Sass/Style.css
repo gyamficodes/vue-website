@@ -186,7 +186,7 @@
   content: "";
   left: 0;
   bottom: 0;
-  background: #1129b9;
+  background: #0c5adb;
   width: 0%;
   height: 60%;
   position: absolute;
@@ -1345,6 +1345,11 @@
   transition: all 0.4s ease-in-out;
 }
 
+.footer_Page .sub-content-page .sub-footer-left {
+  display: flex;
+  gap: 2em;
+}
+
 .footer_Page {
   height: auto;
   background: #111a3a;
@@ -1403,9 +1408,8 @@
 .footer_Page .Subscribe-Page .sub-page-text .btnA {
   width: 150px;
   height: 60px;
+  background: #0c5adb;
   border-radius: 1.5rem 1.5rem 1.5rem;
-  border-left: 3px solid #0c5adb;
-  border-right: 3px solid #0c5adb;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -1423,14 +1427,82 @@
   color: #0c5adb;
   font-weight: 700;
   transition: all 0.4s ease-in-out;
+  color: #fff;
 }
 .footer_Page .sub-content-page {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-  gap: 4em;
+  gap: 7em;
   padding-bottom: 100px;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .forter-logo {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .p-text {
+  margin-bottom: 20px;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .p-text p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex span:hover {
+  color: #0c5adb;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex .icons-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex .icons-flex a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex .icons-flex a i {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex .icons-flex a i:hover {
+  color: #0c5adb;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftB .heading h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftB span {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin-top: 10px;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftB span:hover {
+  color: #0c5adb;
+}
+.footer_Page .sub-content-page .sub-footer-left .sub-footer-leftB span p {
+  width: 8px;
+  height: 2px;
+  background: #fff;
 }
 .footer_Page .footer-nav {
   height: 60px;
