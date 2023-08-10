@@ -1,0 +1,89 @@
+$text-color: #fff;
+$blu-text-colo: #0C5ADB;
+@mixin flex-box() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-boxB() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flex-footer {
+  display: flex;
+  // align-items: center;
+  gap: 2em;
+}
+.Subscribe-Page {
+    height: auto;
+    background: $blu-text-colo;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @include flex-boxB();
+    // margin-bottom: 100px;
+    .sub-page-text {
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+        color: $text-color;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .box-sub {
+        background: $text-color;
+       width: 50%;
+       height: 80px;
+       margin: auto;
+       padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        // position: relative;
+        input {
+          font-size: 14px;
+          height: 40px;
+          padding: 5px 25px;
+          flex: 1;
+          width: 28vw;
+          background: #f6f6fc;
+          border-radius: 40px;
+          border: none !important;
+          outline: none !important;
+          transition: all 0.1s ease-in-out;
+          &:focus:hover {
+            outline: 3px solid #c9e3ff !important;
+            //   transition: all 0.4s ease-in-out;
+          }
+        }
+        ::placeholder {
+          font-size: 13px;
+          text-transform: capitalize;
+        }
+      }
+      .btnA {
+        width: 150px;
+        height: 40px;
+        background: #0c5adb;
+        border-radius: 1.5rem 1.5rem 1.5rem;
+        cursor: pointer;
+        @include flex-boxB();
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          background: $blu-text-colo;
+          border-radius: 1.5rem 1.5rem 1.5rem;
+          span {
+            color: $text-color;
+          }
+        }
+        span {
+          color: $blu-text-colo;
+          font-weight: 700;
+          transition: all 0.4s ease-in-out;
+          color: $text-color;
+        }
+      }
+    }
+  }

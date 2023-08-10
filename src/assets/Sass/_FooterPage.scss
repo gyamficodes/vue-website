@@ -19,81 +19,13 @@ $blu-text-colo: #0c5adb;
 
 .footer_Page {
   height: auto;
-  background: #111a3a;
-  padding-top: 100px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  padding-top: 50px;
   // padding-bottom: 100px;
-  .Subscribe-Page {
-    width: 70%;
-    height: auto;
-    padding: 40px;
-    margin: auto;
-    background: $blu-text-colo;
-    border-radius: 15px;
-    @include flex-boxB();
-    position: relative;
-    margin-top: -200px;
-    // margin-bottom: 100px;
-    .sub-page-text {
-      h2 {
-        font-size: 32px;
-        font-weight: 700;
-        color: $text-color;
-        margin-bottom: 30px;
-        text-align: center;
-      }
-      .box-sub {
-        background: $text-color;
-        padding: 30px 40px 25px;
-        border-radius: 80px;
-        display: flex;
-        align-items: center;
-        gap: 2em;
-        // position: relative;
-        input {
-          font-size: 14px;
-          height: 60px;
-          padding: 5px 25px;
-          width: 28vw;
-          background: #f6f6fc;
-          border-radius: 40px;
-          border: none !important;
-          outline: none !important;
-          transition: all 0.1s ease-in-out;
-          &:focus:hover {
-            outline: 3px solid #c9e3ff !important;
-            //   transition: all 0.4s ease-in-out;
-          }
-        }
-        ::placeholder {
-          font-size: 13px;
-          text-transform: capitalize;
-        }
-      }
-      .btnA {
-        width: 150px;
-        height: 60px;
-        background: #0c5adb;
-        border-radius: 1.5rem 1.5rem 1.5rem;
-        cursor: pointer;
-        @include flex-boxB();
-        transition: all 0.4s ease-in-out;
-        &:hover {
-          background: $blu-text-colo;
-          border-radius: 1.5rem 1.5rem 1.5rem;
-          span {
-            color: $text-color;
-          }
-        }
-        span {
-          color: $blu-text-colo;
-          font-weight: 700;
-          transition: all 0.4s ease-in-out;
-          color: $text-color;
-        }
-      }
-    }
-  }
 
+ 
   .sub-content-page {
     @include flex-boxB();
     margin-top: 80px;

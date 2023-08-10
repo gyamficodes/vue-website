@@ -1,17 +1,7 @@
 <template>
-  <section class="footer_Page">
+  <section class="footer_Page" :style="`background-image: url(${image}) `">
     <div class="container">
-      <div class="Subscribe-Page">
-        <div class="sub-page-text">
-          <h2>Subscribe Our Newsletter</h2>
-          <div class="box-sub">
-            <input type="email" placeholder="ener your email" />
-            <div class="btnA">
-              <span>Subscribe</span>
-            </div>
-          </div>
-        </div>
-      </div>
+     
       <div class="sub-content-page">
         <div class="sub-footer-left">
           <div class="sub-footer-leftA">
@@ -76,6 +66,7 @@
             <a href="#">Privacy Policy</a>
             <a class="pin" href="#">/</a>
             <a href="#"> Terms & Conditions</a>
+            <a :style="{marginLeft: 20 +'px'}" href="#"> contact us</a>
           </div>
         </div>
       </div>
@@ -85,6 +76,7 @@
 
 <script>
 import logo from "../assets/footre-logo.png";
+import footerBanner from "../assets/footer-threee.jpg";
 
 export default {
   name: "FooterPage",
@@ -93,6 +85,7 @@ export default {
   data() {
     return {
       logo,
+     image: footerBanner,
     };
   },
   methods: {},

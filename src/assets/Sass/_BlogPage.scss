@@ -18,9 +18,12 @@ $blu-text-colo:#0c5adb;
   padding-bottom: 200px;
   .box {
     width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: auto;
     padding: 40px;
-    background: $text;
+    // background: $text;
     border-radius: 15px;
     box-shadow: 11px 11px 38px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -28,6 +31,16 @@ $blu-text-colo:#0c5adb;
     margin-top: -180px;
     // z-index: 3;
     @include flex-boxB();
+    .flem{
+      display: flex;
+      align-items: center;
+      gap: 4em;
+    }
+.line1{
+  width: 1px;
+  height: 100px;
+  background: #0c5adb;
+}
 
     flex-wrap: wrap;
     gap: 8em;

@@ -1,10 +1,11 @@
 <template>
   <section class="Blog-Page">
     <div class="container">
-      <div class="box">
+      <div class="box" :style="`background:url(${ pic }) `">
         <div class="content" v-for="item in numbers" :key="item.id">
           <h1>{{ item.num }}</h1>
           <h3>{{ item.text }}</h3>
+          <div class="flem"></div>
         </div>
       </div>
       <div class="page-content">
@@ -45,6 +46,7 @@
 import blog1 from "../assets/blog1.jpg";
 import blog2 from "../assets/blog2.jpg";
 import blog3 from "../assets/blog3.jpg";
+import blog4 from "../assets/blog-box.jpg";
 
 export default {
   name: "BlogPage",
@@ -52,6 +54,7 @@ export default {
   props: [],
   data() {
     return {
+    pic:  blog4,
       blogCards: [
         {
           id: 1,
@@ -65,7 +68,7 @@ export default {
           date: "January 3, 2023",
         },
         {
-          id: 1,
+          id: 2,
           title: "How to learn PHP 10 tips to get you started",
           blog: blog2,
           myText:
@@ -76,7 +79,7 @@ export default {
           date: "December 3, 2023",
         },
         {
-          id: 1,
+          id: 3,
           title: "The five devices you need to work anytime",
           blog: blog3,
           myText:
@@ -94,17 +97,17 @@ export default {
           text: "Happy Clients",
         },
         {
-          id: 1,
+          id: 3,
           num: "1280+",
           text: "Account Number",
         },
         {
-          id: 1,
+          id: 4,
           num: "10K",
           text: "Finished Projects",
         },
         {
-          id: 1,
+          id: 5,
           num: "992+",
           text: "Win Awards",
         },
