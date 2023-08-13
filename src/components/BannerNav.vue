@@ -185,7 +185,7 @@
                       </div>
                     </li>
                     <li><a href="#">it solutions</a></li>
-                    <li><a href="#">element</a></li>
+                    <li><a href="#">Blog</a></li>
                     <li><a href="#">contact</a></li>
                   </ul>
                 </div>
