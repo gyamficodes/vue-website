@@ -1658,6 +1658,22 @@
   align-items: center;
   gap: 1em;
 }
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right1 .My-Box h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right1 .My-Box p {
+  color: #9eb3ef;
+  font-size: 15px;
+}
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right1 .lineW {
+  height: 3px;
+  background: #9eb3ef;
+  flex: 1;
+}
 .footer_Page .footer-nav {
   height: 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.23);

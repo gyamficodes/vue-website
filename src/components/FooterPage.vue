@@ -65,6 +65,7 @@
         <p>April 9, 2023</p>
         </div>
          </div>
+         <div class="lineW"></div>
 
         </div>
         <div class="sub-footer-right2">b</div>

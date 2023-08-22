@@ -124,13 +124,29 @@ $blu-text-colo: #0c5adb;
             margin-bottom: 20px;
           }
         }
-        .My-Box{
+        .My-Box {
           display: flex;
           align-items: center;
           gap: 1em;
-          
+          h3 {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.5;
+            margin-bottom: 15px;
+          }
+          p {
+            color: #9eb3ef;
+            font-size: 15px;
+          }
+        }
+        .lineW{
+          height: 3px;
+          background: #9eb3ef;
+          flex: 1;
         }
       }
+      
     }
   }
 
