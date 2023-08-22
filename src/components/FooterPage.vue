@@ -10,10 +10,9 @@
             </div>
             <div class="p-text">
               <p>
-                Condimentum rhoncus, sem quam <br />
-                semper libero, sit amet adipiscing <br />
-                sem neque sed ipsum. Nam quam nunc, <br />
-                blandit vel, luctus.
+                Completely strategize client-cent  <br> Phosfluorescently
+              iterate efficient <br>  
+                   internal or organic.
               </p>
             </div>
             <div class="fot-flex">
@@ -30,33 +29,46 @@
             <div class="heading">
               <h3>Our Services</h3>
             </div>
-            <span
-              ><p></p>
-              Marketing Strategy
+            <span>
+              <span class="material-icons">arrow_right_alt</span>
+              Home
             </span>
-            <span
-              ><p></p>
-              Interior Design
+            <span>
+              <span class="material-icons">arrow_right_alt</span>
+              About Us
             </span>
-            <span
-              ><p></p>
-              Digital Services
+            <span>
+              <span class="material-icons">arrow_right_alt</span>
+              Contact Us
             </span>
-            <span
-              ><p></p>
-              Product Selling
+            <span>
+              <span class="material-icons">arrow_right_alt</span>
+            Service
             </span>
-            <span
-              ><p></p>
-              Product Design
+            <span>
+              <span class="material-icons">arrow_right_alt</span>
+             Our Team
             </span>
-            <span
-              ><p></p>
+            <span>
+            <span class="material-icons">arrow_right_alt</span>
               Social Marketing
             </span>
           </div>
         </div>
-        <div class="sub-footer-right">dsgfeht</div>
+        <div class="sub-footer-right">
+        <div class="sub-footer-right1">
+         <div class="headings"> <h3>Popular Post</h3></div>
+         <div class="My-Box">
+         <img :src="image2" alt="">
+        <div>
+        <h3>Business Strategy Plan <br> 2022 From the USA</h3>
+        <p>April 9, 2023</p>
+        </div>
+         </div>
+
+        </div>
+        <div class="sub-footer-right2">b</div>
+        </div>
       </div>
 
       <div class="footer-nav">
@@ -77,6 +89,7 @@
 <script>
 import logo from "../assets/footre-logo.png";
 import footerBanner from "../assets/footer-threee.jpg";
+import footerImage from "../assets/Footer-image.png" 
 
 export default {
   name: "FooterPage",
@@ -86,6 +99,7 @@ export default {
     return {
       logo,
      image: footerBanner,
+     image2: footerImage
     };
   },
   methods: {},

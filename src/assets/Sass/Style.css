@@ -1473,7 +1473,7 @@
   transition: all 0.4s ease-in-out;
 }
 
-.footer_Page .sub-content-page .sub-footer-left {
+.footer_Page .sub-content-page .sub-footer-right, .footer_Page .sub-content-page .sub-footer-left {
   display: flex;
   gap: 2em;
 }
@@ -1553,7 +1553,7 @@
   color: #fff;
 }
 
-.footer_Page .sub-content-page .sub-footer-left {
+.footer_Page .sub-content-page .sub-footer-right, .footer_Page .sub-content-page .sub-footer-left {
   display: flex;
   gap: 2em;
 }
@@ -1588,12 +1588,12 @@
 }
 .footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 1em;
 }
 .footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex span {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
@@ -1610,13 +1610,21 @@
   text-decoration: none;
   color: #fff;
   font-size: 14px;
+  height: 40px;
+  width: 40px;
+  background: #187dff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 .footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex .icons-flex a i {
   cursor: pointer;
+  font-size: 20px;
   transition: all 0.4s ease-in-out;
 }
 .footer_Page .sub-content-page .sub-footer-left .sub-footer-leftA .fot-flex .icons-flex a i:hover {
-  color: #0c5adb;
+  color: #efefef;
 }
 .footer_Page .sub-content-page .sub-footer-left .sub-footer-leftB .heading h3 {
   color: #fff;
@@ -1627,7 +1635,7 @@
   display: flex;
   align-items: center;
   gap: 0.7em;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #fff;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -1639,6 +1647,16 @@
   width: 8px;
   height: 2px;
   background: #fff;
+}
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right1 .headings h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right1 .My-Box {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 .footer_Page .footer-nav {
   height: 60px;
