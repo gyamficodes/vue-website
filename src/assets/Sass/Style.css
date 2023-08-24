@@ -1670,9 +1670,11 @@
   font-size: 15px;
 }
 .footer_Page .sub-content-page .sub-footer-right .sub-footer-right1 .lineW {
-  height: 3px;
+  height: 1px;
   background: #9eb3ef;
   flex: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .footer_Page .footer-nav {
   height: 60px;

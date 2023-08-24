@@ -141,9 +141,11 @@ $blu-text-colo: #0c5adb;
           }
         }
         .lineW{
-          height: 3px;
+          height: 1px;
           background: #9eb3ef;
           flex: 1;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
       }
       
