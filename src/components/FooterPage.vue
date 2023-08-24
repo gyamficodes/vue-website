@@ -30,11 +30,11 @@
               <h3>Our Services</h3>
             </div>
             <span>
-              <span class="material-icons">arrow_right_alt</span>
+              <span  class="material-icons">arrow_right_alt</span>
               Home
             </span>
             <span>
-              <span class="material-icons">arrow_right_alt</span>
+              <span  class="material-icons">arrow_right_alt</span>
               About Us
             </span>
             <span>
