@@ -11,8 +11,8 @@
             <div class="p-text">
               <p>
                 Completely strategize client-cent  <br> Phosfluorescently
-              iterate efficient <br>  
-                   internal or organic.
+                iterate efficient <br>  
+                internal or organic.
               </p>
             </div>
             <div class="fot-flex">
@@ -51,7 +51,7 @@
             </span>
             <span>
             <span class="material-icons">arrow_right_alt</span>
-              Social Marketing
+                Social Marketing
             </span>
           </div>
         </div>
@@ -59,7 +59,7 @@
         <div class="sub-footer-right1">
          <div class="headings"> <h3>Popular Post</h3></div>
          <div class="My-Box">
-         <img :src="image2" alt="Avatar">
+            <img :src="image2" alt="Avatar">
         <div>
         <h3>Business Strategy Plan <br> 2022 From the USA</h3>
         <p>April 9, 2023</p>
