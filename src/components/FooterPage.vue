@@ -67,7 +67,7 @@
          </div>
          <div class="lineW"></div>
          <div class="My-Box">
-         <img :src="image2" alt="Avatar">
+         <img :src="pic" alt="Avatar">
         <div>
         <h3>The Most 10 Chrome <br>  Extention Download <br>  Strategy</h3>
         <p>April 9, 2023</p>
@@ -97,6 +97,7 @@
 import logo from "../assets/footre-logo.png";
 import footerBanner from "../assets/footer-threee.jpg";
 import footerImage from "../assets/Footer-image.png" 
+import footerImage2 from "../assets//footer-image2.png" 
 
 export default {
   name: "FooterPage",
@@ -106,7 +107,8 @@ export default {
     return {
       logo,
      image: footerBanner,
-     image2: footerImage
+     image2: footerImage,
+     pic:footerImage2
     };
   },
   methods: {},
