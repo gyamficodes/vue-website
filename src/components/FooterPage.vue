@@ -74,7 +74,11 @@
         </div>
          </div>
         </div>
-        <div class="sub-footer-right2">b</div>
+        <div class="sub-footer-right2">
+        <h1 >Contact Info</h1>
+
+
+        </div>
         </div>
       </div>
 
