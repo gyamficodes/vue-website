@@ -75,8 +75,11 @@
          </div>
         </div>
         <div class="sub-footer-right2">
-        <h1 >Contact Info</h1>
-
+        <h3 >Contact Info</h3>
+           <div class="right2-flex">
+           <div><span class="material-icons">face</span></div>
+           <div></div>
+           </div>
 
         </div>
         </div>

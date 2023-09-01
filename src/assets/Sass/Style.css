@@ -1676,6 +1676,16 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right2 h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.footer_Page .sub-content-page .sub-footer-right .sub-footer-right2 .right2-flex {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
 .footer_Page .footer-nav {
   height: 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.23);

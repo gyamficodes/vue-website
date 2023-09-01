@@ -148,6 +148,21 @@ $blu-text-colo: #0c5adb;
           margin-bottom: 10px;
         }
       }
+
+      .sub-footer-right2{
+        h3{
+          color: #fff;
+          font-size: 22px;
+          margin-bottom: 20px;
+        }
+        .right2-flex{
+          display: flex;
+          align-items: center;
+          gap: 1em;
+        }
+
+        
+      }
       
     }
   }
