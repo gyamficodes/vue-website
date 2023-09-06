@@ -14,7 +14,7 @@ $blu-text-colo: #0c5adb;
 %flex-footer {
   display: flex;
   // align-items: center;
-  gap: 2em;
+  gap: 3em;
 }
 
 .footer_Page {
@@ -140,7 +140,7 @@ $blu-text-colo: #0c5adb;
             font-size: 15px;
           }
         }
-        .lineW{
+        .lineW {
           height: 1px;
           background: #9eb3ef;
           flex: 1;
@@ -149,21 +149,43 @@ $blu-text-colo: #0c5adb;
         }
       }
 
-      .sub-footer-right2{
-        h3{
+      .sub-footer-right2 {
+        h3 {
           color: #fff;
           font-size: 22px;
           margin-bottom: 20px;
         }
-        .right2-flex{
+        .right2-flex {
           display: flex;
           align-items: center;
           gap: 1em;
+
+          .icon-flex {
+            width: 38px;
+            height: 38px;
+            line-height: 40px;
+            background: #3d65de;
+            @include flex-boxB();
+            border-radius: 50%;
+            color: #fff;
+            cursor: pointer;
+          }
+          .icon-text{
+            line-height: 1.5;
+            h2{
+              font-size: 20px;
+              color: $text-color;
+              font-weight: 600;
+            }
+            p{
+              color: #9EB3EF;
+              font-size: 15px;
+            }
+          }
         }
 
-        
+
       }
-      
     }
   }
 

@@ -77,8 +77,11 @@
         <div class="sub-footer-right2">
         <h3 >Contact Info</h3>
            <div class="right2-flex">
-           <div><span class="material-icons">face</span></div>
-           <div></div>
+           <div class="icon-flex"><span class="material-icons">location_on</span></div>
+           <div class="icon-text">
+           <h2>Location</h2>
+           <p>55 Main Street, New York.</p>
+           </div>
            </div>
 
         </div>
