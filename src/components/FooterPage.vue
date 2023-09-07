@@ -84,6 +84,23 @@
            </div>
            </div>
 
+
+           <div class="right2-flex">
+           <div class="icon-flex"><span class="material-icons">email</span></div>
+           <div class="icon-text">
+           <h2>Email Us</h2>
+           <p>example@gmail.com</p>
+           </div>
+           </div>
+           
+           <div class="right2-flex">
+           <div class="icon-flex"><span class="material-icons">phone</span></div>
+           <div class="icon-text">
+           <h2>Phone Us</h2>
+           <p>+012 (345) 678 99</p>
+           </div>
+           </div>
+
         </div>
         </div>
       </div>

@@ -1685,6 +1685,7 @@
   display: flex;
   align-items: center;
   gap: 1em;
+  margin-bottom: 15px;
 }
 .footer_Page .sub-content-page .sub-footer-right .sub-footer-right2 .right2-flex .icon-flex {
   width: 38px;
