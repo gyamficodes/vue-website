@@ -203,6 +203,10 @@
   </div>
 </template>
 
+
+
+
+
 <script>
 import logo from "../assets/log.png";
 import mainLogo from "../assets/scroll-logo.png";
