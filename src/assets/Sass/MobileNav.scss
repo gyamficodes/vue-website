@@ -1,0 +1,29 @@
+.Moblie-Nav{
+    .Mobile-Navbar{
+        height: 50px;
+        background: #0c5adb;
+        padding: 10px;
+
+        .mb-menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            h1{
+                color: #ffff;
+                font-size: 23px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            .icons-box{
+                .Icon{
+                    color: #ffff;
+                    font-size: 30px;
+                    cursor: pointer;
+    
+                }
+            }
+           
+        }
+    }
+}

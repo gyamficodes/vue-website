@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+     <MobileNav/>
     <nav>
       <router-link to="/"></router-link> 
       <router-link to="/about"></router-link>
@@ -7,6 +8,15 @@
     <router-view/>
   </div>
 </template>
+<script>
+import MobileNav from './components/MobileNav.vue';
+export default {
+  components:{
+    MobileNav
+  },
+}
+
+</script>
 
 <style lang="scss">
 #app {
