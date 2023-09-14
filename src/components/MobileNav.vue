@@ -2,10 +2,10 @@
   <section class="Moblie-Nav">
     <div class="Mobile-Navbar">
       <div class="mb-menu">
-        <h1>Techno</h1>
+        <h1>{{ name }}</h1>
         <div class="icons-box" @click="isIconShow">
-          <span v-if="iconShow" class="material-icons Icon">menu</span>
-          <span v-else class="material-icons Icon">close</span>
+          <span v-if="iconShow" class="material-icons Icon">{{ menu }}</span>
+          <span v-else class="material-icons Icon">{{ close }}</span>
         </div>
       </div>
     </div>
@@ -13,7 +13,7 @@
     <div></div>
 
 
-    
+
     <!--  -->
   </section>
 </template>
@@ -21,7 +21,7 @@
 <script>
 export default {
   comments: {},
-  props: [],
+  props: ['name','menu','close'],
   mixins: [],
   data() {
     return {

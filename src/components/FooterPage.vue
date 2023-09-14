@@ -113,6 +113,7 @@
             <a class="pin" href="#">/</a>
             <a href="#"> Terms & Conditions</a>
             <a :style="{marginLeft: 20 +'px'}" href="#"> contact us</a>
+            
           </div>
         </div>
       </div>

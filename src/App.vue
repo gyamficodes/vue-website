@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <MobileNav/>
+     <MobileNav :name="name" :menu="menu" :close="close"/>
     <nav>
       <router-link to="/"></router-link> 
       <router-link to="/about"></router-link>
@@ -14,6 +14,16 @@ export default {
   components:{
     MobileNav
   },
+  data(){
+  return{
+    name: 'Techno',
+    menu: 'menu',
+    close: 'close',
+  }
+  },
+  methods:{},
+  mounted(){}
+
 }
 
 </script>
