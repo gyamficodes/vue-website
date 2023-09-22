@@ -1741,6 +1741,29 @@
   cursor: auto;
 }
 
+.Moblie-Nav .Mobile-Navbar {
+  height: 50px;
+  background: #0c5adb;
+  padding: 10px;
+}
+.Moblie-Nav .Mobile-Navbar .mb-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.Moblie-Nav .Mobile-Navbar .mb-menu h1 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.Moblie-Nav .Mobile-Navbar .mb-menu .icons-box .Icon {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 * {
   padding: 0;
   margin: 0;

@@ -10,13 +10,13 @@
   height: 100%;
 }
 .Moblie-Nav .Mobile-Navbar .mb-menu h1 {
-  color: white;
+  color: #fff;
   font-size: 23px;
   font-weight: 700;
   cursor: pointer;
 }
 .Moblie-Nav .Mobile-Navbar .mb-menu .icons-box .Icon {
-  color: white;
+  color: #fff;
   font-size: 30px;
   cursor: pointer;
 }/*# sourceMappingURL=MobileNav.css.map */
