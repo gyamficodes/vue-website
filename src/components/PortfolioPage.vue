@@ -109,7 +109,6 @@
     </div>
   </section>
 </template>
-
 <script>
 import p1 from "../assets/p1.jpg";
 import p2 from "../assets/p2.jpg";
