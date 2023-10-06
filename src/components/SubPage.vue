@@ -140,7 +140,4 @@ export default {
 
 <style lang="scss">
 @import "../assets/Sass/subPage";
-
-
-
 </style>
