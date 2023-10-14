@@ -1741,8 +1741,14 @@
   cursor: auto;
 }
 
+.Moblie-Nav .Mobile-Links .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Moblie-Nav .Mobile-Navbar {
-  height: 50px;
+  height: 40px;
   background: #0c5adb;
   padding: 10px;
 }
@@ -1762,6 +1768,40 @@
   color: #fff;
   font-size: 30px;
   cursor: pointer;
+}
+.Moblie-Nav .Mobile-Links {
+  height: auto;
+  flex: 1;
+  background: #f8f8f8;
+  padding-bottom: 5px;
+  position: absolute;
+  z-index: 999 !important;
+  width: 100% !important;
+}
+.Moblie-Nav .Mobile-Links .link {
+  text-decoration: none;
+  height: 20px;
+  padding: 12px;
+  color: #232323;
+  text-transform: capitalize;
+  padding-left: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.Moblie-Nav .Mobile-Links .link h3 {
+  font-size: 15px;
+  font-weight: 200;
+}
+.Moblie-Nav .Mobile-Links .link:last-child {
+  border-bottom: none;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 
 * {

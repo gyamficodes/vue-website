@@ -1,6 +1,13 @@
+%mb-flex{
+ display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+$test: #fff;
 .Moblie-Nav{
+    // display: ;
     .Mobile-Navbar{
-        height: 50px;
+        height: 40px;
         background: #0c5adb;
         padding: 10px;
 
@@ -26,4 +33,40 @@
            
         }
     }
+    .Mobile-Links{
+        height: auto;
+        flex: 1;
+        background: #f8f8f8;
+        padding-bottom: 5px;
+        position: absolute;
+        z-index: 999 !important;
+        width: 100% !important;
+      .link{
+        text-decoration: none;
+       @extend %mb-flex;
+        height: 20px;
+        padding: 12px;
+        color: #232323;
+        text-transform: capitalize;
+        padding-left: 20px;
+        cursor: pointer;
+        border-bottom: 1px solid #ccc;
+       
+        h3{
+            font-size: 15px;
+        font-weight: 200;
+        }
+      }
+      .link:last-child{
+        border-bottom: none;
+    }
+    }
+   
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
