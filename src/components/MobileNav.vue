@@ -16,30 +16,30 @@
          <h3>home</h3>
          <span class="material-icons">add</span>
          </a>
-         <div class="link">
+         <a href="" class="link">
          <h3>company</h3>
          <span class="material-icons">add</span>
-         </div>
-         <div class="link">
+         </a>
+         <a href="" class="link">
          <h3>services</h3>
          <span class="material-icons">add</span>
-         </div>
-         <div class="link">
+         </a>
+         <a href="" class="link">
          <h3>pages</h3>
          <span class="material-icons">add</span>
-         </div>
-         <div class="link">
+         </a>
+         <a href="" class="link">
          <h3>elements</h3>
          <span class="material-icons">add</span>
-         </div>
-         <div class="link">
+         </a>
+         <a href="" class="link">
          <h3>blog</h3>
          <span class="material-icons">add</span>
-         </div>
-         <div class="link">
+         </a>
+         <a href="" class="link">
          <h3>contact</h3>
          <span class="material-icons">add</span>
-         </div>
+         </a>
            
 
     </div>
