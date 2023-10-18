@@ -10,7 +10,6 @@
       </div>
     </div>
     <!--  -->
-    <Transition class="fade">
       <div class="Mobile-Links" v-if="isShowDropDown">
          <a href="" class="link">
          <h3>home</h3>
@@ -40,11 +39,7 @@
          <h3>contact</h3>
          <span class="material-icons">add</span>
          </a>
-           
-
     </div>
-    </Transition>
-  
     <!--  -->
   </section>
 </template>
