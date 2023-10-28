@@ -65,7 +65,6 @@ export default {
     showDropDown(){
       return this.isShowDropDown = !this.isShowDropDown
     }
-
   },
   mounted() {},
   computed:{
