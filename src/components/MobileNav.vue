@@ -14,7 +14,7 @@
       <div class="Mobile-Links" v-if="isShowDropDown">
          <a href="" class="link">
          <h3>home</h3>
-         <span class="material-icons">add</span>
+         <span  class="material-icons">add</span>
          </a>
          <a href="" class="link">
          <h3>company</h3>
