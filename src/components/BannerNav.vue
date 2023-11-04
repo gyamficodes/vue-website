@@ -224,8 +224,7 @@ export default {
       window.addEventListener('scroll', this.handleScroll)
   },
   methods: {
-    handleScroll(){
-      
+    handleScroll(){    
       const scrollPosition = window.scrollY;
       const scroll = scrollPosition.toFixed(0);
       const navItem = document.querySelector('.nav');
