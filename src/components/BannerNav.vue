@@ -230,7 +230,6 @@ export default {
       const navItem = document.querySelector('.nav');
 
       if(scroll >= 100){
-
           navItem.style.position = 'fixed';
           navItem.style.top = 0;
           navItem.style.left = 0;
@@ -240,7 +239,6 @@ export default {
           navItem.style.background = '#fff';
           navItem.style.boxShadow = '0px 2px 5px #ccc';
          this.isScroll = true
-
       }
       if(scroll == 0){
         navItem.style.position = 'relative';
