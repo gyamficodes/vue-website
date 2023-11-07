@@ -204,9 +204,6 @@
 </template>
 
 
-
-
-
 <script>
 import logo from "../assets/log.png";
 import mainLogo from "../assets/scroll-logo.png";
@@ -228,7 +225,6 @@ export default {
       const scrollPosition = window.scrollY;
       const scroll = scrollPosition.toFixed(0);
       const navItem = document.querySelector('.nav');
-
       if(scroll >= 100){
           navItem.style.position = 'fixed';
           navItem.style.top = 0;
