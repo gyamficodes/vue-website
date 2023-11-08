@@ -179,7 +179,7 @@
                       <div class="sub-menu1">
                         <ul>
                           <li><a href="#">web designer</a></li>
-                          <li><a href="#">developer</a></li>
+                          <li><a href="#">developers</a></li>
                           <li><a href="#"> manager</a></li>
                         </ul>
                       </div>
