@@ -46,6 +46,7 @@ $blu-text-colo:#0c5adb;
         .box {
           display: flex;
           align-items: center;
+          flex-wrap: wrap;
           gap: 2em;
           margin-top: 50px;
           .nav-btn {

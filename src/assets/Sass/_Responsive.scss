@@ -1,52 +1,216 @@
-@media  (min-width:0px)  and (max-width:320px) {
-
-
-}
-
-
 // Extra small devices (portrait phones, less than 576px)
-@media (min-width: 321px) and (max-width: 575.98px){
-  
+@media (max-width: 575.98px) {
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: auto !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .content-text {
+      h1 {
+        font-size: 20px !important;
+      }
+      p{
+        font-size: 15px !important;
+      }
+    }
+    .content-image {
+      display: none;
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-  
+  .nav {
+    display: none !important;
+  }
+    .banner-page {
+    height: auto !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .content-text {
+      h1 {
+        font-size: 40px !important;
+      }
+      p{
+        font-size: 16px !important;
+      }
+    }
+    .content-image {
+      display: none;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-  
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: auto !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .content-text {
+      h1 {
+        font-size: 50px !important;
+      }
+      p{
+        font-size: 16px !important;
+      }
+    }
+    .content-image {
+      display: none;
+    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .Moblie-Nav{
-        display: none;
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+    
+    .content-text {
+      h1 {
+        font-size: 60px !important;
+      }
+      p{
+        font-size: 17px !important;
+      }
     }
+    .content-image {
+      .pic{
+        display: none !important ;
+      }
+      .anima{
+        position: absolute !important;
+        top: 0;
+        left: 40% !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1199.98px) and (max-width: 1396px) {
+  .nav {
+    display: none !important;
+  }
+
+  .banner-page {
+    height: 60vh !important;
+    
+    .content-text {
+      h1 {
+        font-size: 60px !important;
+      }
+      p{
+        font-size: 17px !important;
+      }
+    }
+    .content-image {
+      .pic{
+        position: absolute !important;
+        top: 10% ;
+        left: 50% !important;
+        z-index: 100;
+      }
+      .anima{
+        position: absolute !important;
+        top: 10% ;
+        left: 40% !important;
+      }
+    }
+  }
+
+  
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1367px) {
-    .Moblie-Nav{
-        display: none;
+@media (min-width: 1396px) and (max-width: 1440px) {
+  .Mobile-Navbar {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+    
+    .content-text {
+      h1 {
+        font-size: 60px !important;
+      }
+      p{
+        font-size: 17px !important;
+      }
     }
-}
+    .content-image {
+      .pic{
+        position: absolute !important;
+        top: 10% ;
+        left: 50% !important;
+        z-index: 100;
+      }
+      .anima{
+        position: absolute !important;
+        top: 10% ;
+        left: 40% !important;
+      }
+    }
+  }
 
-@media (min-width: 1367px) and (max-width: 1440px) {
-    .Moblie-Nav{
-        display: none;
-    }
+  
+
+
 }
 
 @media (min-width: 1440px) and (max-width: 1680px) {
-    .Moblie-Nav{
-        display: none;
+  .Mobile-Navbar {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+    
+    .content-text {
+      h1 {
+        font-size: 60px !important;
+      }
+      p{
+        font-size: 17px !important;
+      }
     }
+    .content-image {
+      .pic{
+        position: absolute !important;
+        top: 10% ;
+        left: 50% !important;
+        z-index: 100;
+      }
+      .anima{
+        position: absolute !important;
+        top: 10% ;
+        left: 40% !important;
+      }
+    }
+  }
+  .container{
+    width: 80% !important;
+    height: 100% !important;
+    margin: auto !important;
+}
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+  .Mobile-Navbar {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1920px) {
-    .Moblie-Nav{
-        display: none;
-    }
+  .Mobile-Navbar {
+    display: none !important;
+  }
 }

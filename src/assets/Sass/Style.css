@@ -294,6 +294,7 @@
 .banner-page .banner-content .content-menu .content-text .box {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2em;
   margin-top: 50px;
 }
@@ -1805,29 +1806,173 @@
   opacity: 0;
 }
 
+@media (max-width: 575.98px) {
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: auto !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .banner-page .content-text h1 {
+    font-size: 20px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 15px !important;
+  }
+  .banner-page .content-image {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: auto !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .banner-page .content-text h1 {
+    font-size: 40px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 16px !important;
+  }
+  .banner-page .content-image {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: auto !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .banner-page .content-text h1 {
+    font-size: 50px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 16px !important;
+  }
+  .banner-page .content-image {
+    display: none;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .Moblie-Nav {
-    display: none;
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+  }
+  .banner-page .content-text h1 {
+    font-size: 60px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 17px !important;
+  }
+  .banner-page .content-image .pic {
+    display: none !important;
+  }
+  .banner-page .content-image .anima {
+    position: absolute !important;
+    top: 0;
+    left: 40% !important;
   }
 }
-@media (min-width: 1200px) and (max-width: 1367px) {
-  .Moblie-Nav {
-    display: none;
+@media (min-width: 1199.98px) and (max-width: 1396px) {
+  .nav {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+  }
+  .banner-page .content-text h1 {
+    font-size: 60px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 17px !important;
+  }
+  .banner-page .content-image .pic {
+    position: absolute !important;
+    top: 10%;
+    left: 50% !important;
+    z-index: 100;
+  }
+  .banner-page .content-image .anima {
+    position: absolute !important;
+    top: 10%;
+    left: 40% !important;
   }
 }
-@media (min-width: 1367px) and (max-width: 1440px) {
-  .Moblie-Nav {
-    display: none;
+@media (min-width: 1396px) and (max-width: 1440px) {
+  .Mobile-Navbar {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+  }
+  .banner-page .content-text h1 {
+    font-size: 60px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 17px !important;
+  }
+  .banner-page .content-image .pic {
+    position: absolute !important;
+    top: 10%;
+    left: 50% !important;
+    z-index: 100;
+  }
+  .banner-page .content-image .anima {
+    position: absolute !important;
+    top: 10%;
+    left: 40% !important;
   }
 }
 @media (min-width: 1440px) and (max-width: 1680px) {
-  .Moblie-Nav {
-    display: none;
+  .Mobile-Navbar {
+    display: none !important;
+  }
+  .banner-page {
+    height: 60vh !important;
+  }
+  .banner-page .content-text h1 {
+    font-size: 60px !important;
+  }
+  .banner-page .content-text p {
+    font-size: 17px !important;
+  }
+  .banner-page .content-image .pic {
+    position: absolute !important;
+    top: 10%;
+    left: 50% !important;
+    z-index: 100;
+  }
+  .banner-page .content-image .anima {
+    position: absolute !important;
+    top: 10%;
+    left: 40% !important;
+  }
+  .container {
+    width: 80% !important;
+    height: 100% !important;
+    margin: auto !important;
+  }
+}
+@media (min-width: 1680px) and (max-width: 1920px) {
+  .Mobile-Navbar {
+    display: none !important;
   }
 }
 @media (min-width: 1920px) {
-  .Moblie-Nav {
-    display: none;
+  .Mobile-Navbar {
+    display: none !important;
   }
 }
 * {
