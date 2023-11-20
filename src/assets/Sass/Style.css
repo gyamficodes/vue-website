@@ -1824,6 +1824,21 @@
   .banner-page .content-image {
     display: none;
   }
+  .About-menu {
+    flex-wrap: wrap !important;
+  }
+  .About-menu .page-text h2 {
+    font-size: 17px !important;
+  }
+  .About-menu .page-text h1 {
+    font-size: 23px !important;
+  }
+  .About-menu .page-text h3 {
+    font-size: 16px !important;
+  }
+  .About-menu .page-text p {
+    font-size: 14px !important;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .nav {
