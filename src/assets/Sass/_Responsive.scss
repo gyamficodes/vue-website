@@ -11,7 +11,7 @@
       h1 {
         font-size: 20px !important;
       }
-      p{
+      p {
         font-size: 15px !important;
       }
     }
@@ -19,41 +19,45 @@
       display: none;
     }
   }
-  .About-menu{
-
+  .About-menu {
     flex-wrap: wrap !important;
-    .page-text{
-        h2{
-            font-size: 17px !important;
-        }
-        h1{
-            font-size: 23px !important;
-        }
-        h3{
-            font-size: 16px !important;
-        }
-        p{
-            font-size: 14px !important;
-
-        }
+    .page-text {
+      h2 {
+        font-size: 17px !important;
+      }
+      h1 {
+        font-size: 23px !important;
+      }
+      h3 {
+        font-size: 16px !important;
+      }
+      p {
+        font-size: 14px !important;
+      }
     }
   }
-.page-image{
-  
-  .anima-image{
-    display: none !important;
+  .page-image {
+    .anima-image {
+      display: none !important;
+    }
+    .back-image {
+      margin-top: 100px !important;
+      .top-pic {
+        margin: auto !important;
+        width: 330px !important;
+        flex: 1 !important;
+      }
+    }
   }
-  .back-image{
+  .service-page-content{
+    height: auto !important;
+    .service-text{
+      .text-card{
+        flex-wrap: wrap !important;
+      }
       
-    margin-top: 100px !important;
-    .top-pic{
-      margin: auto !important;
-      width: 330px !important;
-flex: 1 !important;
-    }
+        }
   }
-}
-
 
 }
 
@@ -62,7 +66,7 @@ flex: 1 !important;
   .nav {
     display: none !important;
   }
-    .banner-page {
+  .banner-page {
     height: auto !important;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -70,7 +74,7 @@ flex: 1 !important;
       h1 {
         font-size: 40px !important;
       }
-      p{
+      p {
         font-size: 16px !important;
       }
     }
@@ -78,27 +82,33 @@ flex: 1 !important;
       display: none;
     }
   }
-  
-  .About-menu{
 
+  .About-menu {
     flex-wrap: wrap !important;
-    .page-text{
-        h2{
-            font-size: 20px !important;
-        }
-        h1{
-            font-size: 30px !important;
-        }
-        h3{
-            font-size: 17px !important;
-        }
-        p{
-            font-size: 15px !important;
-
-        }
+    .page-text {
+      h2 {
+        font-size: 20px !important;
+      }
+      h1 {
+        font-size: 30px !important;
+      }
+      h3 {
+        font-size: 17px !important;
+      }
+      p {
+        font-size: 15px !important;
+      }
     }
   }
-
+  .service-page-content{
+    height: auto !important;
+    .service-text{
+      .text-card{
+        flex-wrap: wrap !important;
+      }
+      
+        }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -114,7 +124,7 @@ flex: 1 !important;
       h1 {
         font-size: 50px !important;
       }
-      p{
+      p {
         font-size: 16px !important;
       }
     }
@@ -122,24 +132,31 @@ flex: 1 !important;
       display: none;
     }
   }
-  .About-menu{
-
+  .About-menu {
     flex-wrap: wrap !important;
-    .page-text{
-        h2{
-            font-size: 20px !important;
-        }
-        h1{
-            font-size: 40px !important;
-        }
-        h3{
-            font-size: 17px !important;
-        }
-        p{
-            font-size: 15px !important;
-
-        }
+    .page-text {
+      h2 {
+        font-size: 20px !important;
+      }
+      h1 {
+        font-size: 40px !important;
+      }
+      h3 {
+        font-size: 17px !important;
+      }
+      p {
+        font-size: 15px !important;
+      }
     }
+  }
+  .service-page-content{
+    height: auto !important;
+    .service-text{
+      .text-card{
+        flex-wrap: wrap !important;
+      }
+      
+        }
   }
 }
 
@@ -150,33 +167,31 @@ flex: 1 !important;
   }
   .banner-page {
     height: 60vh !important;
-    
+
     .content-text {
       h1 {
         font-size: 60px !important;
       }
-      p{
+      p {
         font-size: 17px !important;
       }
     }
     .content-image {
-      .pic{
+      .pic {
         display: none !important ;
       }
-      .anima{
+      .anima {
         position: absolute !important;
         top: 0;
         left: 40% !important;
       }
     }
   }
-  .About-menu{
-
+  .About-menu {
     flex-wrap: wrap !important;
-  
   }
-  .top-pic{
-    width:  100% !important;
+  .top-pic {
+    width: 100% !important;
     margin: auto !important;
   }
 }
@@ -188,32 +203,29 @@ flex: 1 !important;
 
   .banner-page {
     height: 60vh !important;
-    
+
     .content-text {
       h1 {
         font-size: 60px !important;
       }
-      p{
+      p {
         font-size: 17px !important;
       }
     }
     .content-image {
-      .pic{
+      .pic {
         position: absolute !important;
-        top: 10% ;
+        top: 10%;
         left: 50% !important;
         z-index: 100;
       }
-      .anima{
+      .anima {
         position: absolute !important;
-        top: 10% ;
+        top: 10%;
         left: 40% !important;
       }
     }
   }
-
-  
-
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -223,51 +235,47 @@ flex: 1 !important;
   }
   .banner-page {
     height: 60vh !important;
-    
+
     .content-text {
       h1 {
         font-size: 60px !important;
       }
-      p{
+      p {
         font-size: 17px !important;
       }
     }
     .content-image {
-      .pic{
+      .pic {
         position: absolute !important;
-        top: 10% ;
+        top: 10%;
         left: 50% !important;
         z-index: 100;
       }
-      .anima{
+      .anima {
         position: absolute !important;
-        top: 10% ;
+        top: 10%;
         left: 40% !important;
       }
     }
   }
 
-  .About-menu{
-
+  .About-menu {
     // flex-wrap: wrap !important;
-    .page-text{
-        h2{
-            font-size: 20px !important;
-        }
-        h1{
-            font-size: 30px !important;
-        }
-        h3{
-            font-size: 17px !important;
-        }
-        p{
-            font-size: 15px !important;
-
-        }
+    .page-text {
+      h2 {
+        font-size: 20px !important;
+      }
+      h1 {
+        font-size: 30px !important;
+      }
+      h3 {
+        font-size: 17px !important;
+      }
+      p {
+        font-size: 15px !important;
+      }
     }
   }
-
-
 }
 
 @media (min-width: 1440px) and (max-width: 1680px) {
@@ -276,34 +284,34 @@ flex: 1 !important;
   }
   .banner-page {
     height: 60vh !important;
-    
+
     .content-text {
       h1 {
         font-size: 60px !important;
       }
-      p{
+      p {
         font-size: 17px !important;
       }
     }
     .content-image {
-      .pic{
+      .pic {
         position: absolute !important;
-        top: 10% ;
+        top: 10%;
         left: 50% !important;
         z-index: 100;
       }
-      .anima{
+      .anima {
         position: absolute !important;
-        top: 10% ;
+        top: 10%;
         left: 40% !important;
       }
     }
   }
-  .container{
+  .container {
     width: 80% !important;
     height: 100% !important;
     margin: auto !important;
-}
+  }
 }
 
 @media (min-width: 1680px) and (max-width: 1920px) {

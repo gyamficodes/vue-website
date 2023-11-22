@@ -58,7 +58,8 @@ $blu-text-colo:#0c5adb;
             cursor: pointer;
             position: relative;
             transition: all 0.5s ease-in-out;
-
+            
+            
             z-index: 1;
             &::after {
               content: "";

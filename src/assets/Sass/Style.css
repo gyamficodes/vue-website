@@ -1850,6 +1850,12 @@
     width: 330px !important;
     flex: 1 !important;
   }
+  .service-page-content {
+    height: auto !important;
+  }
+  .service-page-content .service-text .text-card {
+    flex-wrap: wrap !important;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .nav {
@@ -1884,6 +1890,12 @@
   .About-menu .page-text p {
     font-size: 15px !important;
   }
+  .service-page-content {
+    height: auto !important;
+  }
+  .service-page-content .service-text .text-card {
+    flex-wrap: wrap !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .nav {
@@ -1917,6 +1929,12 @@
   }
   .About-menu .page-text p {
     font-size: 15px !important;
+  }
+  .service-page-content {
+    height: auto !important;
+  }
+  .service-page-content .service-text .text-card {
+    flex-wrap: wrap !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
