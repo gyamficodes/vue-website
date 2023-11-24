@@ -19,6 +19,10 @@
       display: none;
     }
   }
+  .About-content {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
   .About-menu {
     flex-wrap: wrap !important;
     .page-text {
@@ -49,16 +53,50 @@
       }
     }
   }
-  .service-page-content{
+  .service-page-content {
     height: auto !important;
-    .service-text{
-      .text-card{
+    .service-text {
+      .text-card {
         flex-wrap: wrap !important;
       }
-      
-        }
+    }
   }
 
+  .Tap-Page {
+    height: 400px !important;
+    .Tap-text {
+      h3 {
+        font-size: 15px !important;
+      }
+      h1 {
+        font-size: 25px !important;
+      }
+      p {
+        font-size: 13px !important;
+      }
+    }
+  }
+
+  .sub-page {
+    .card-item-box {
+      flex-direction: column !important;
+      transform: translateY(300px);
+    }
+    .card-body {
+      flex-direction: column !important;
+      margin-top: 270px !important;
+      .card-right {
+        width: 100% !important;
+      }
+      .btnA{
+        font-size: 14px !important;
+      }
+      .btnB{
+        font-size: 14px !important;
+
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -100,15 +138,46 @@
       }
     }
   }
-  .service-page-content{
+  .service-page-content {
     height: auto !important;
-    .service-text{
-      .text-card{
+    .service-text {
+      .text-card {
         flex-wrap: wrap !important;
       }
-      
-        }
+    }
   }
+
+
+  .Tap-Page {
+    height: 400px !important;
+    .Tap-text {
+     
+      h1 {
+        font-size: 30px !important;
+      }
+     
+    }
+  }
+
+  .sub-page {
+    .card-item-box {
+      flex-direction: column !important;
+      transform: translateY(300px);
+    .card{
+width: 460px !important;
+     }
+    }
+    .card-body {
+      flex-direction: column !important;
+      margin-top: 270px !important;
+      .card-right {
+        width: 100% !important;
+      }
+    
+    }
+  }
+
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -149,14 +218,13 @@
       }
     }
   }
-  .service-page-content{
+  .service-page-content {
     height: auto !important;
-    .service-text{
-      .text-card{
+    .service-text {
+      .text-card {
         flex-wrap: wrap !important;
       }
-      
-        }
+    }
   }
 }
 

@@ -8,7 +8,7 @@
             <a
               class="card"
               :class="{ active: activePage === index }"
-              @click="activePageIndex"
+             
               @click.prevent="activePage = index"
               :href="page.card.url"
               v-for="(page, index) in pages"

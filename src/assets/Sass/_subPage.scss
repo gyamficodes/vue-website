@@ -12,6 +12,7 @@ $blue-color: #0c5adb;
 }
 .sub-page {
   height: auto;
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 100px;
   background: $text;
@@ -35,7 +36,7 @@ $blue-color: #0c5adb;
           border-radius: 5px;
           font-size: 20px;
           color: $text;
-          position: relati;
+          position: relative;
           z-index: 99;
           margin-top: -210px;
           text-decoration: none;
@@ -71,10 +72,11 @@ $blue-color: #0c5adb;
       img {
         width: 490px;
         height: 400px;
+        max-width: 100% !important;
       }
     }
     .card-right {
-      width: 40% !important;
+      width: 40% ;
       h4 {
         color: #232323;
         font-weight: 700;
