@@ -97,6 +97,23 @@
       }
     }
   }
+.choosePage{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+ .choose-content{
+  h3{
+    font-size: 15px !important;
+  }
+h1{
+font-size: 18px !important;
+}
+  }
+}
+
+.card-page{
+  flex-wrap: wrap !important;
+}
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -177,7 +194,22 @@ width: 460px !important;
     }
   }
 
-
+  .choosePage{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  //  .choose-content{
+  //   h3{
+  //     font-size: 15px !important;
+  //   }
+  // h1{
+  // font-size: 18px !important;
+  // }
+  //   }
+  }
+  
+  .card-page{
+    flex-wrap: wrap !important;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -226,6 +258,29 @@ width: 460px !important;
       }
     }
   }
+  .sub-page {
+    .card-item-box {
+
+    .card{
+width: 130px !important;
+text-align: center !important;
+h4{
+  font-size: 14px !important;
+}
+     }
+    }
+    .card-body {
+      flex-direction: column !important;
+      // margin-top: 270px !important;
+      .card-right {
+        width: 100% !important;
+      }
+    
+    }
+  }
+  .card-page{
+    flex-wrap: wrap !important;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -261,6 +316,26 @@ width: 460px !important;
   .top-pic {
     width: 100% !important;
     margin: auto !important;
+  }
+  .sub-page {
+    .card-item-box {
+
+    .card{
+width: 200px !important;
+text-align: center !important;
+h4{
+  font-size: 16px !important;
+}
+     }
+    }
+    .card-body {
+      // flex-direction: column !important;
+      // margin-top: 270px !important;
+      .card-right {
+        width: 100% !important;
+      }
+    
+    }
   }
 }
 
