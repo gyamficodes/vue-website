@@ -1,5 +1,6 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+//  
   .nav {
     display: none !important;
   }
@@ -98,8 +99,8 @@
     }
   }
 .choosePage{
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  // padding-left: 50px !important;
+  // padding-right: 50px !important;
  .choose-content{
   h3{
     font-size: 15px !important;
