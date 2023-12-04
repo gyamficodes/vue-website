@@ -56,7 +56,6 @@ $blu-text-colo:#0c5adb;
                   background: #0c5adb;
                   animation: move 3s linear infinite;
                 }
-      
                 &:hover::after {
                   @keyframes move {
                     to {
