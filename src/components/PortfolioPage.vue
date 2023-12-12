@@ -15,7 +15,6 @@
               @click.prevent="activePage = index"
             >
 
-            
               <span>{{ card.cardP.text }}</span>
             </div>
           </div>
