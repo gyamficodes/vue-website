@@ -1755,6 +1755,8 @@
   height: 40px;
   background: #0c5adb;
   padding: 10px;
+  position: relative;
+  z-index: 9999;
 }
 .Moblie-Nav .Mobile-Navbar .mb-menu {
   display: flex;
@@ -1779,7 +1781,7 @@
   background: #f8f8f8;
   padding-bottom: 5px;
   position: absolute;
-  z-index: 9999 !important;
+  z-index: 999 !important;
   width: 100% !important;
 }
 .Moblie-Nav .Mobile-Links .link {
@@ -2026,9 +2028,6 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .Mobile-Links {
-    display: none;
-  }
   .nav {
     display: none !important;
   }
@@ -2096,6 +2095,9 @@
   .Mobile-Navbar {
     display: none !important;
   }
+  .Mobile-Links {
+    display: none !important;
+  }
   .banner-page {
     height: 60vh !important;
   }
@@ -2133,6 +2135,9 @@
   .Mobile-Navbar {
     display: none !important;
   }
+  .Mobile-Links {
+    display: none !important;
+  }
   .banner-page {
     height: 60vh !important;
   }
@@ -2163,9 +2168,15 @@
   .Mobile-Navbar {
     display: none !important;
   }
+  .Mobile-Links {
+    display: none !important;
+  }
 }
 @media (min-width: 1920px) {
   .Mobile-Navbar {
+    display: none !important;
+  }
+  .Mobile-Links {
     display: none !important;
   }
 }
@@ -2176,7 +2187,7 @@
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: auto;
 }/*# sourceMappingURL=Style.css.map */

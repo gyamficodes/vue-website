@@ -1,6 +1,6 @@
 <template>
   <section class="Moblie-Nav">
-    <div class="Mobile-Navbar" @click="showDropDown">
+    <div id="nav" class="Mobile-Navbar" @click="showDropDown">
       <div class="mb-menu">
         <h1>{{ name }}</h1>
         <div class="icons-box" @click="isIconShow">
@@ -13,6 +13,7 @@
   
 
     <!--  -->
+    <transition name="fade-slide">
       <div class="Mobile-Links" v-if="isShowDropDown">
          <a href="" class="link">
          <h3>home</h3>
@@ -45,6 +46,7 @@
 
          
     </div>
+  </transition>
     <!--  -->
     
   </section>
@@ -78,5 +80,14 @@ export default {
 </script>
 
 <style lang="scss">
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: transform 0.5s ease-in-out; /* Change the transition properties as needed */
+}
+
+.fade-slide-enter,
+.fade-slide-leave-to {
+  transform: translateY(-100%); /* Initial and final state for the slide effect */
+}
 @import "../assets/Sass/MobileNav.scss";
 </style>

@@ -1,6 +1,8 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 //  
+
+
   .nav {
     display: none !important;
   }
@@ -119,6 +121,7 @@ font-size: 18px !important;
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
   .nav {
     display: none !important;
   }
@@ -286,9 +289,6 @@ h4{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .Mobile-Links{
-    display: none;
-  }
   .nav {
     display: none !important;
   }
@@ -380,6 +380,9 @@ h4{
   .Mobile-Navbar {
     display: none !important;
   }
+  .Mobile-Links{
+    display: none !important;
+  }
   .banner-page {
     height: 60vh !important;
 
@@ -429,6 +432,9 @@ h4{
   .Mobile-Navbar {
     display: none !important;
   }
+  .Mobile-Links{
+    display: none !important;
+  }
   .banner-page {
     height: 60vh !important;
 
@@ -465,10 +471,16 @@ h4{
   .Mobile-Navbar {
     display: none !important;
   }
+  .Mobile-Links{
+    display: none !important;
+  }
 }
 
 @media (min-width: 1920px) {
   .Mobile-Navbar {
+    display: none !important;
+  }
+  .Mobile-Links{
     display: none !important;
   }
 }
