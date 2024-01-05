@@ -52,8 +52,6 @@
   </section>
 </template>
 
-
-
 <script>
 export default {
   comments: {},
