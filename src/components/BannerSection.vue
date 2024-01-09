@@ -2,6 +2,8 @@
     <section class="banner-page" :style="`background-image: url(${background});`">
         <BannerNav/>
       
+
+    
         <section class="banner-content">
             <div class="container">
                 <div class="content-menu">
