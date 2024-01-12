@@ -31,6 +31,7 @@
     </section>
 </template>
 
+
 <script>
 import baner from '../assets/slider-3.png';
 import BannerNav from './BannerNav.vue';
