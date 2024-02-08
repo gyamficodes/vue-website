@@ -8,6 +8,7 @@
     <router-view/>
   </div>
 </template>
+
 <script>
 import MobileNav from './components/MobileNav.vue';
 export default {
