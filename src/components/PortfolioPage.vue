@@ -53,9 +53,7 @@
           </div>
         </div>
 
-      
-            
-
+    
         <div class="card-down" v-if="activePage === 2 ">
           <div
             class="image-card"
